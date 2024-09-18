@@ -1,0 +1,23 @@
+{
+    "name": "AnalyticsFirebaseMetrica",
+    "rootNamespace": "",
+    "references": [
+        "AnalyticsBase",
+        "Project_Timers",
+        "VContainer",
+        "Project_PersistentData",
+        "UniRx",
+        "YandexAppMetrica"
+    ],
+    "includePlatforms": [
+        "Android"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

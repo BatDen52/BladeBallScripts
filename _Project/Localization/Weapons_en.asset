@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Weapons_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: d184ab879724f2149b22ab3842e02228, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 65574735872
+    m_Localized: Katana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177172582400
+    m_Localized: Axe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14990464454656
+    m_Localized: Baseball Bat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15236791734272
+    m_Localized: Freedom of Speech
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15522386087936
+    m_Localized: Chainsaw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15931079069696
+    m_Localized: Meat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16116425363456
+    m_Localized: Pipe Wrench
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16328879443968
+    m_Localized: Plunger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16513923747840
+    m_Localized: Knife
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16730748293120
+    m_Localized: Claw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1149255715643392
+    m_Localized: Machete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1149245632536576
+    m_Localized: Strange Bone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1219231860383744
+    m_Localized: Ax of the Elves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1225639951589376
+    m_Localized: Double Sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1226466573410304
+    m_Localized: Ancient Staff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1227580442140672
+    m_Localized: Trident
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1227275839201280
+    m_Localized: Red Lightsaber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5178314510557184
+    m_Localized: Frying pan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5244343894925312
+    m_Localized: Royal sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5244922000039936
+    m_Localized: Holy Hammer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5246248327045120
+    m_Localized: Pickaxe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5261069432905728
+    m_Localized: Elven blade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5262639893569536
+    m_Localized: Mace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5264175088525312
+    m_Localized: Scythe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5266855412359168
+    m_Localized: Concrete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5268425101271040
+    m_Localized: Excalibur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5269534645673984
+    m_Localized: Axe of Durin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5271403413626880
+    m_Localized: Split Blade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5272607917072384
+    m_Localized: Paddle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5273647668256768
+    m_Localized: Berserk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5274653193920512
+    m_Localized: Parting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5275721743196160
+    m_Localized: Hook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5276958056243200
+    m_Localized: Fly swatter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5279958959120384
+    m_Localized: Golf club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5281392077299712
+    m_Localized: Hockey stick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5282815317893120
+    m_Localized: Half-Life
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5284471401078784
+    m_Localized: rolling pin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5285307099373568
+    m_Localized: Wood Blade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41867666575642624
+    m_Localized: "\rViking ax"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50713309477916672
+    m_Localized: Ax of Nature
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50716136493338624
+    m_Localized: Rune Ax
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50752751362166784
+    m_Localized: Halberd of Darkness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50756136073220096
+    m_Localized: Ax of Darkness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50778759461130240
+    m_Localized: Blade of Darkness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50781747969839104
+    m_Localized: Sword of Darkness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50794715730202624
+    m_Localized: Kunai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50796578710016000
+    m_Localized: Sai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50800785349464064
+    m_Localized: Justice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50803585663946752
+    m_Localized: Yorick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50806215911985152
+    m_Localized: Mjolnir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50808754405429248
+    m_Localized: Envy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50811774027485184
+    m_Localized: Valor
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

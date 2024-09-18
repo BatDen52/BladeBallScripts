@@ -1,0 +1,456 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Default_fil
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fil
+  m_SharedData: {fileID: 11400000, guid: 154ba0a05767c8e42be16e428b0a4ae6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 51339268096
+    m_Localized: Mga setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721164154507264
+    m_Localized: Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721285059514368
+    m_Localized: Isang mabilis na Dash sa direksyon ng paggalaw ng iyong karakter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721511577096192
+    m_Localized: Invisibility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721603516239872
+    m_Localized: '(Hindi wasto sa panahon ng standoff)
+
+      Maging invisible saglit
+      para hindi ka ma-target ng bola'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721756444758016
+    m_Localized: Platform
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721838221103104
+    m_Localized: Lumikha ng Platform mula sa lupa upang tumayo nang mataas sa kalangitan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721942776713216
+    m_Localized: SuperJump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12722034527113216
+    m_Localized: Mabilis na tumalon upang makakuha ng napakataas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13191892083609600
+    m_Localized: Mga kasanayan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13192028520124416
+    m_Localized: Mga balat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13192236494688256
+    m_Localized: Kakayahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13192372079759360
+    m_Localized: I-block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13193006581485568
+    m_Localized: Kakayahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13195674314018816
+    m_Localized: Equip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13403719660933120
+    m_Localized: Mga sandata
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14292037890150400
+    m_Localized: Standoff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14953923086323712
+    m_Localized: Ikaw ang nanalo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14966315094577152
+    m_Localized: Iyong Gantimpala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14969002641002496
+    m_Localized: Triple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14988547170701312
+    m_Localized: Salamat nalang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15783870113714176
+    m_Localized: Paano laruin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15784094848716800
+    m_Localized: 'Sa sandaling tumawid ka sa portal, may lalabas na bola. Mag-ingat
+      ka! Auto-tracking ito at para ilihis ito, pindutin ang block button bago ka
+      matamaan ng bola.
+
+
+
+      Pagkatapos ay gagawa ka ng isang slash gamit ang
+      iyong espada at ang bola ay kurba sa direksyon ng iyong karakter at ita-target
+      ang isa pang kalaban.
+
+
+
+      Kung namatay ang kalaban na iyon ay kikita ka
+      ng 5 coins. Ang huling nakatayo ay mananalo at makakakuha ng isa pang 10 barya.
+
+
+
+      Maaari
+      mong gamitin ang iyong kakayahan upang bigyan ka ng kaunting kalamangan sa
+      iyong mga kalaban sa labanan. Maaari mong i-unlock ang mga bagong kakayahan
+      at armas sa pamamagitan ng pagkuha ng mga barya.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16119750854643712
+    m_Localized: Na-knockout mo ang isang player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17064232131432448
+    m_Localized: Pindutin ang "I-block"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18555861562548224
+    m_Localized: Thunder Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18559371159003136
+    m_Localized: Teleport sa direksyon kung saan gumagalaw ang karakter na may maikling
+      cooldown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18565489260224512
+    m_Localized: Quad Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18568176517242880
+    m_Localized: (Passive) Kumuha ng 4 na pagtalon sa halip na ang regular na 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20666456396992512
+    m_Localized: Nilagyan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21344877794025472
+    m_Localized: Freez
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21345343705702400
+    m_Localized: I-freeze ang bola sa loob ng 5 segundo, maaaring i-unfreeze ng target
+      ng bola ang bola kung haharangin ito
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21348527308267520
+    m_Localized: Shadow Step
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21348578709463040
+    m_Localized: Lumipat nang napakabilis sa anumang direksyon, na nag-iiwan ng mga
+      anino sa likod mo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21349928407130112
+    m_Localized: Force Field
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21350017754193920
+    m_Localized: '(Hindi gumagana sa panahon ng Standoff)
+
+      Lumikha ng isang
+      hindi malalampasan na field ng puwersa sa paligid mo na awtomatikong nagpapalihis
+      sa bola habang kumikilos ito'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21797744256421888
+    m_Localized: Itago/Ipakita ang Cursor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24583852044259328
+    m_Localized: DeathBall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25370155086188544
+    m_Localized: Dibdib ng armas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25371531514155008
+    m_Localized: Premium na dibdib ng armas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22118994827874304
+    m_Localized: Bukas para sa mga barya ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22119625915437056
+    m_Localized: Bukas para sa mga kristal ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22119633460989952
+    m_Localized: Mga barya ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22119639806971904
+    m_Localized: Mga kristal ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22484969568854016
+    m_Localized: Mga mapagkukunan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22485836741206016
+    m_Localized: 1000 na barya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486064894566400
+    m_Localized: Bumili ($1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486310483648512
+    m_Localized: 3750 na barya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486421641093120
+    m_Localized: Bumili ($3)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486795634597888
+    m_Localized: 8000 na barya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486857055985664
+    m_Localized: Bumili ($6)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22487673250766848
+    m_Localized: 14500 na barya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22487933821902848
+    m_Localized: Bumili ($10)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488221194641408
+    m_Localized: 24000 na barya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488340119937024
+    m_Localized: Bumili ($15)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488493446914048
+    m_Localized: 10 Kristal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488643837878272
+    m_Localized: Bumili ($1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488761949478912
+    m_Localized: 40 Kristal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488844011036672
+    m_Localized: Bumili ($3)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488899333906432
+    m_Localized: 90 Kristal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489051759108096
+    m_Localized: Bumili ($6)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489147334713344
+    m_Localized: 210 Kristal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489228356083712
+    m_Localized: Bumili ($12)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489294886133760
+    m_Localized: 500 Kristal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489407641608192
+    m_Localized: Bumili ($24)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489481922732032
+    m_Localized: Huwag paganahin ang Mga Ad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489630430453760
+    m_Localized: Bumili ($5)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489742686806016
+    m_Localized: Pangalawang buhay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489909456527360
+    m_Localized: Bumili ($9)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22490012263112704
+    m_Localized: Mga barya 2X
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22490102113492992
+    m_Localized: Bumili ($3)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23256297134690304
+    m_Localized: 100 barya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23258515447549952
+    m_Localized: Kunin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25439909975154688
+    m_Localized: kumurap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25440046545887232
+    m_Localized: Agad na lumipat ng maikling distansya nang 3 beses na magkakasunod
+      na may maikling cooldown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25443246560763904
+    m_Localized: Wind Cloak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25444081445363712
+    m_Localized: Gamitin ang Wind Cloak para mapataas ang iyong bilis at tumalon
+      sa mahabang panahon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25664322047774720
+    m_Localized: Ang dobleng armas mula sa isang dibdib ay magbibigay ng 60% pabalik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28316084305125376
+    m_Localized: Magpalit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28318344418418688
+    m_Localized: Pagkatapos ng napakaikling pagtatapos, makipagpalitan ng mga lugar
+      sa ibang manlalaro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25802871253569536
+    m_Localized: Hindi pag-aari
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49371020469014528
+    m_Localized: Sa fortune wheel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49376157498396672
+    m_Localized: Character Chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49377602742308864
+    m_Localized: Premium na Character Chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753390385352704
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50771336012812288
+    m_Localized: Duel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50782015679680512
+    m_Localized: Nagbubukas pagkatapos ng tutorial at unang laban sa Deathmatch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53992605893988352
+    m_Localized: '{0} min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54042767903363072
+    m_Localized: 100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54420333854187520
+    m_Localized: 200
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61922140111179776
+    m_Localized: 30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61923977396686848
+    m_Localized: 150
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61924068706684928
+    m_Localized: 250
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54292736342167552
+    m_Localized: 'Susunod na reward: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54419109713010688
+    m_Localized: Tubusin ang iyong gantimpala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54399034131943424
+    m_Localized: Na-claim na ang lahat ng reward para sa araw na ito
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54288662972534784
+    m_Localized: x1 Iikot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54000734178316288
+    m_Localized: Kunin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54001110227030016
+    m_Localized: Natanggap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54783590177640448
+    m_Localized: Buksan nang libre
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

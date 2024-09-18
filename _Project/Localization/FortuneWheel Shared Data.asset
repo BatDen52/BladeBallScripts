@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: FortuneWheel Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: FortuneWheel
+  m_TableCollectionNameGuidString: 7b4a9415ed84638408f2c2143da9a825
+  m_Entries:
+  - m_Id: 275045748736
+    m_Key: FortuneWheelCoinsX2Reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462338199552
+    m_Key: FortuneWheelSwordReward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525865127936
+    m_Key: FortuneWheelCrystalsReward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 578226819072
+    m_Key: FortuneWheelCoinsReward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 617019936768
+    m_Key: FortuneWheelSkillReward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 699949715456
+    m_Key: FortuneWheelFastSpinReward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2527143727104
+    m_Key: FortuneWheel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 619123604262912
+    m_Key: FortuneWheelFreeSpin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 620327369510912
+    m_Key: FortuneWheelSpin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 707235143553024
+    m_Key: FreeSpinTimer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 734551022309376
+    m_Key: OpenFortuneWheelWindow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881383723569152
+    m_Key: CloseBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 664644852174848
+    m_Key: Wheel of Fortune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6030268289716224
+    m_Key: Free Spin
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6471522436132372480
+  references:
+    version: 2
+    RefIds:
+    - rid: 6471522436132372480
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1705524585075

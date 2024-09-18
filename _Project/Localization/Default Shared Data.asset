@@ -1,0 +1,428 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Default Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Default
+  m_TableCollectionNameGuidString: 154ba0a05767c8e42be16e428b0a4ae6
+  m_Entries:
+  - m_Id: 51339268096
+    m_Key: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721164154507264
+    m_Key: Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721285059514368
+    m_Key: Dash Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721511577096192
+    m_Key: Invisibility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721603516239872
+    m_Key: Invisibility Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721756444758016
+    m_Key: Platform
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721838221103104
+    m_Key: Platform Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721942776713216
+    m_Key: SuperJump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12722034527113216
+    m_Key: SuperJump Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13191892083609600
+    m_Key: Skills
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13192028520124416
+    m_Key: Skins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13192236494688256
+    m_Key: Ability
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13192372079759360
+    m_Key: Block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13193006581485568
+    m_Key: Abilities
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13195674314018816
+    m_Key: Equip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13403719660933120
+    m_Key: Weapons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14292037890150400
+    m_Key: Standoff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14953923086323712
+    m_Key: You win
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14966315094577152
+    m_Key: Your reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14969002641002496
+    m_Key: Triple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14988547170701312
+    m_Key: No, thanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15783870113714176
+    m_Key: How to play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15784094848716800
+    m_Key: How to play TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16119750854643712
+    m_Key: You kill player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17064232131432448
+    m_Key: Press "Block"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18555861562548224
+    m_Key: Thunder Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18559371159003136
+    m_Key: Thunder Dash Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18565489260224512
+    m_Key: Quad Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18568176517242880
+    m_Key: Quad Jump Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20666456396992512
+    m_Key: Equipped
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21344877794025472
+    m_Key: Freez
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21345343705702400
+    m_Key: Freez Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21348527308267520
+    m_Key: ShadowStep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21348578709463040
+    m_Key: ShadowStep Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21349928407130112
+    m_Key: Forcefield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21350017754193920
+    m_Key: Forcefield Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21797744256421888
+    m_Key: Hide/Show Cursor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22118994827874304
+    m_Key: OpenBoxBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22119625915437056
+    m_Key: OpenPremiumBoxBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22119633460989952
+    m_Key: FailOpenBox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22119639806971904
+    m_Key: FailOpenPremiumBox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22484969568854016
+    m_Key: ShopTabCoins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22485836741206016
+    m_Key: 1000CoinsTile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486064894566400
+    m_Key: 1000CoinsBuyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486310483648512
+    m_Key: 3750CoinsTile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486421641093120
+    m_Key: 3750CoinsBuyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486795634597888
+    m_Key: 8000CoinsTile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486857055985664
+    m_Key: 8000CoinsBuyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22487673250766848
+    m_Key: 14500CoinsTile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22487933821902848
+    m_Key: 14500CoinsBuyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488221194641408
+    m_Key: 24000CoinsTile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488340119937024
+    m_Key: 24000CoinsBuyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488493446914048
+    m_Key: 10CrystalsTile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488643837878272
+    m_Key: 10CrystalsBuyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488761949478912
+    m_Key: 40CrystalsTile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488844011036672
+    m_Key: 40CrystalsBuyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488899333906432
+    m_Key: 90CrystalsTile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489051759108096
+    m_Key: 90CrystalsBuyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489147334713344
+    m_Key: 210CrystalsTile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489228356083712
+    m_Key: 210CrystalsBuyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489294886133760
+    m_Key: 500CrystalsTile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489407641608192
+    m_Key: 500CrystalsBuyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489481922732032
+    m_Key: NoAdsTile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489630430453760
+    m_Key: NoAdsBuyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489742686806016
+    m_Key: SecondLifeTile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489909456527360
+    m_Key: SecondLifeBuyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22490012263112704
+    m_Key: CoinsX2Tile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22490102113492992
+    m_Key: CoinsX2BuyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23256297134690304
+    m_Key: 100CoinsTile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23258515447549952
+    m_Key: GetForReward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24583852044259328
+    m_Key: DeathBall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25370155086188544
+    m_Key: Weapons chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25371531514155008
+    m_Key: Premium weapons chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25439909975154688
+    m_Key: Blink Skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25440046545887232
+    m_Key: Blink Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25443246560763904
+    m_Key: Wild Cloak Skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25444081445363712
+    m_Key: Wind Cloak Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25664322047774720
+    m_Key: Duplicate weapon from a chest will give 60% back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28316084305125376
+    m_Key: Swap Skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28318344418418688
+    m_Key: Swap Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25802871253569536
+    m_Key: UnownShopItemTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49371020469014528
+    m_Key: FortuneSkillType
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49376157498396672
+    m_Key: Character Chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49377602742308864
+    m_Key: Premium skins chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753390385352704
+    m_Key: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50771336012812288
+    m_Key: Duel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50782015679680512
+    m_Key: Open Duel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53992605893988352
+    m_Key: '{0} min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54000734178316288
+    m_Key: Claim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54001110227030016
+    m_Key: Claimed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54042767903363072
+    m_Key: 100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54288662972534784
+    m_Key: x1 Spin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54292736342167552
+    m_Key: 'Next reward: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54399034131943424
+    m_Key: All rewards for today have been claimed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54419109713010688
+    m_Key: Claim your reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54420333854187520
+    m_Key: 200
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54783590177640448
+    m_Key: Open free
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61922140111179776
+    m_Key: 30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61923977396686848
+    m_Key: 150
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61924068706684928
+    m_Key: 250
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8844833396306739224
+  references:
+    version: 2
+    RefIds:
+    - rid: 8844833396306739224
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1693909884130

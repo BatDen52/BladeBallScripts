@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: FortuneWheel
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 7b4a9415ed84638408f2c2143da9a825, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: bbf9bc60a78f0314b87ff34bc9830ef7, type: 2}
+  - {fileID: 11400000, guid: 09798fb58a2d1064bb7200718553760f, type: 2}
+  - {fileID: 11400000, guid: 174e3869720e5e149bd319d907571870, type: 2}
+  - {fileID: 11400000, guid: 3d5641bd8db4b5a468086bf3f746645c, type: 2}
+  - {fileID: 11400000, guid: 54bd7abc09e1811489cfcec7f3ef4caa, type: 2}
+  - {fileID: 11400000, guid: 95504e305a2c13e43ad179f2be6664e7, type: 2}
+  - {fileID: 11400000, guid: d84d7e3c71e492341a07ca6f4aac9c76, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

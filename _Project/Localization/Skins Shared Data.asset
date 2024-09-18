@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Skins Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Skins
+  m_TableCollectionNameGuidString: af807bfc1747e9b459506e537b229f16
+  m_Entries:
+  - m_Id: 55068004352
+    m_Key: Leo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 315282624512
+    m_Key: James
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3168113987584
+    m_Key: Hanzo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3259705004032
+    m_Key: Craig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146213870555136
+    m_Key: Angela
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146861504647168
+    m_Key: Denny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147294520397824
+    m_Key: Harley
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147852576739328
+    m_Key: Elizabeth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148678317756416
+    m_Key: Ronald
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148936129040384
+    m_Key: Pai Mei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149429291110400
+    m_Key: Julio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149837178785792
+    m_Key: Charlie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 150159909507072
+    m_Key: Phryne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153617102327808
+    m_Key: Andy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175318997454848
+    m_Key: Slade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176049443885056
+    m_Key: Chris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176167849086976
+    m_Key: Tristan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176805769170944
+    m_Key: Maximus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177917540749312
+    m_Key: Sam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502515369037824
+    m_Key: Jose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505975615311872
+    m_Key: Neil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 506609802465280
+    m_Key: Sean
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507836971929600
+    m_Key: Said
+    m_Metadata:
+      m_Items: []
+  - m_Id: 508500196249600
+    m_Key: Ghost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 509162791424000
+    m_Key: Robert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 511245233999872
+    m_Key: Merlin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 511471214710784
+    m_Key: Azog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 512786644914176
+    m_Key: Victor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515102945103872
+    m_Key: Vlad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515675106889728
+    m_Key: Nostradamus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 518899733942272
+    m_Key: Nick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 519358758572032
+    m_Key: Bellatrix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 521641596604416
+    m_Key: Bugs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 522149128359936
+    m_Key: Lucifer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 522467555725312
+    m_Key: Joe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523189617741824
+    m_Key: Jack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 524519602180096
+    m_Key: Arthur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 828666494898176
+    m_Key: Jacques
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2960151238725632
+    m_Key: Belatrix
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 36505275358773271
+  references:
+    version: 2
+    RefIds:
+    - rid: 36505275358773271
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1705483306740

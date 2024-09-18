@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Weapons_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: d184ab879724f2149b22ab3842e02228, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 65574735872
+    m_Localized: Katana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177172582400
+    m_Localized: Balta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14990464454656
+    m_Localized: "Beyzbol Sopas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15236791734272
+    m_Localized: "Konu\u015Fma \xD3zg\xFCrl\xFC\u011F\xFC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15522386087936
+    m_Localized: Testere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15931079069696
+    m_Localized: Et
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16116425363456
+    m_Localized: "Boru Anahtar\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16328879443968
+    m_Localized: piston
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16513923747840
+    m_Localized: "B\u0131\xE7ak"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16730748293120
+    m_Localized: "Pen\xE7e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1149255715643392
+    m_Localized: "\rPala"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1149245632536576
+    m_Localized: Garip Kemik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1219231860383744
+    m_Localized: "Elflerin Baltas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1225639951589376
+    m_Localized: "\xC7ift k\u0131l\u0131\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1226466573410304
+    m_Localized: Kadim Asa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1227275839201280
+    m_Localized: "K\u0131rm\u0131z\u0131 I\u015F\u0131n K\u0131l\u0131c\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1227580442140672
+    m_Localized: "\xDC\xE7 di\u015Fli m\u0131zrak"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5178314510557184
+    m_Localized: "K\u0131zartma tavas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5244343894925312
+    m_Localized: "Kraliyet k\u0131l\u0131c\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5244922000039936
+    m_Localized: "Kutsal \xC7eki\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5246248327045120
+    m_Localized: Kazma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5261069432905728
+    m_Localized: "Elf k\u0131l\u0131c\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5262639893569536
+    m_Localized: Topuz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5264175088525312
+    m_Localized: "T\u0131rpan"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5266855412359168
+    m_Localized: Beton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5268425101271040
+    m_Localized: Excalibur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5269534645673984
+    m_Localized: "Durin'in Baltas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5271403413626880
+    m_Localized: "B\xF6l\xFCnm\xFC\u015F B\u0131\xE7ak"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5272607917072384
+    m_Localized: "K\xFCrek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5273647668256768
+    m_Localized: "\xE7\u0131lg\u0131na d\xF6n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5274653193920512
+    m_Localized: "ayr\u0131l\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5275721743196160
+    m_Localized: Kanca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5276958056243200
+    m_Localized: Sineklik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5279958959120384
+    m_Localized: "Golf kl\xFCb\xFC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5281392077299712
+    m_Localized: "Hokey sopas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5282815317893120
+    m_Localized: "Yar\u0131 \xF6m\xFCr"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5284471401078784
+    m_Localized: oklava
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5285307099373568
+    m_Localized: "Ah\u015Fap B\u0131\xE7ak"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41867666575642624
+    m_Localized: "Viking baltas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50713309477916672
+    m_Localized: "Do\u011Fan\u0131n Baltas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50716136493338624
+    m_Localized: "Rune Baltas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50752751362166784
+    m_Localized: "Karanl\u0131\u011F\u0131n Teberi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50756136073220096
+    m_Localized: "\rKaranl\u0131\u011F\u0131n \xC7ift Baltas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50778759461130240
+    m_Localized: "Karanl\u0131\u011F\u0131n K\u0131l\u0131c\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50781747969839104
+    m_Localized: "Karanl\u0131\u011F\u0131n K\u0131l\u0131c\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50794715730202624
+    m_Localized: Kunai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50796578710016000
+    m_Localized: Sai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50800785349464064
+    m_Localized: Adalet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50803585663946752
+    m_Localized: Yorick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50806215911985152
+    m_Localized: Mjolnir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50808754405429248
+    m_Localized: "\u0130mrenmek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50811774027485184
+    m_Localized: "Yi\u011Fitlik"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

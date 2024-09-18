@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c41da34dd0f36041865f1607bbee689, type: 3}
+  m_Name: FreezeSkill
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 6
+  <Price>k__BackingField: 2000
+  <Icon>k__BackingField: {fileID: 21300000, guid: 70b651bf766751a4ebee2222c3846a70, type: 3}
+  <Title>k__BackingField: Freeze
+  <CooldownTime>k__BackingField: 40
+  <ActiveTime>k__BackingField: 5
+  <Name>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+    m_TableEntryReference:
+      m_KeyId: 21344877794025472
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <Description>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+    m_TableEntryReference:
+      m_KeyId: 21345343705702400
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <IsPassive>k__BackingField: 0
+  ActivateSound:
+    AudioClips: []
+    MinPitch: 1
+    MaxPitch: 1
+  DeactivateSound:
+    AudioClips: []
+    MinPitch: 1
+    MaxPitch: 1
+  <FreezeAura>k__BackingField: {fileID: 2898860392573924346, guid: 7cac478a9d49e244e974eacf4addb130, type: 3}
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655664a97cb34e76b20d6ef3490164ba, type: 3}
+  m_Name: PlaytimeRewardsTEST
+  m_EditorClassIdentifier: 
+  Rewards:
+  - {fileID: 11400000, guid: 7a4ab79b3ef104c4d8e4a0ee3a9412af, type: 2}
+  - {fileID: 11400000, guid: 891f116648dcec54fb66bc6a5b19f54c, type: 2}
+  - {fileID: 11400000, guid: 2c7a5631838b74f45bfb6e279015e74a, type: 2}
+  - {fileID: 11400000, guid: 6957a0a1e5220994fbc6f91963deddac, type: 2}
+  - {fileID: 11400000, guid: 2c7a5631838b74f45bfb6e279015e74a, type: 2}
+  - {fileID: 11400000, guid: bdf08ce203fbb674abf422d80a04f400, type: 2}
+  - {fileID: 11400000, guid: 4b81a63d107e48f45af0e0d467c99d3a, type: 2}
+  - {fileID: 11400000, guid: ffebe1a6b998e1e4a80cdfa23eb7522e, type: 2}
+  - {fileID: 11400000, guid: 2c7a5631838b74f45bfb6e279015e74a, type: 2}
+  - {fileID: 11400000, guid: 043ef97175dee6c42a678f29c8da9949, type: 2}
+  - {fileID: 11400000, guid: 2c7a5631838b74f45bfb6e279015e74a, type: 2}
+  - {fileID: 11400000, guid: a06badcb2716d524295ea88a9d621308, type: 2}
+  Timings: 0a000000140000001e00000028000000320000003c00000046000000500000005a000000640000006e00000078000000

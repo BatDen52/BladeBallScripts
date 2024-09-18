@@ -1,0 +1,21 @@
+{
+    "name": "PersistentDataYandex",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a01c234b382e09145a9da6091f8cc5a2",
+        "GUID:cd31ccbcf13c2fe47aa00d3c8739f571",
+        "GUID:93c5580a62f347443b5037bcade72b92"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "WebGL"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

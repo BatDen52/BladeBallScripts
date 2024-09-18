@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c485873aa304a54bcea229001ef95f3, type: 3}
+  m_Name: BotDefault
+  m_EditorClassIdentifier: 
+  Skins:
+  - {fileID: -9159933073238686700, guid: 2675bf32b57d62d429d574ccdf68450e, type: 3}
+  - {fileID: -6059995075288581069, guid: 67528b85d728a4c4c9a50010e5427a30, type: 3}
+  - {fileID: -1801437094242526787, guid: 7e3ed390d74bc784083ee4837e70d9f1, type: 3}
+  - {fileID: -1684455122148280896, guid: 99ee18e96e4f9034f93051a48b845b84, type: 3}
+  - {fileID: 8893050462833730584, guid: baf310426e2034645ba56f70158ff455, type: 3}
+  - {fileID: 2826548367954493821, guid: 3fe2c3da7e5b368409f8ef53c9435c4f, type: 3}
+  - {fileID: 1316556136659464265, guid: 3db1be8b3cda7ab4990a0f1d8bb00383, type: 3}
+  - {fileID: -5214758215053759800, guid: ddcda3d3779e87e41818bd8ede7a104c, type: 3}
+  - {fileID: 581617342506055390, guid: e1fbc9c7501ead84393db2b438171525, type: 3}
+  - {fileID: -8864131907277032054, guid: 6a8fac59182ff6643ac262a2e81c002a, type: 3}
+  - {fileID: -3201757226422752736, guid: fe30229f0b65d8842ab18c52bfba5cee, type: 3}
+  - {fileID: -2612013179036466959, guid: aec34fba1d0c7de4f9a03dff4f4e3f4d, type: 3}
+  - {fileID: 31379856758134964, guid: 6fa14c22782f12d4582f587516ee164d, type: 3}
+  - {fileID: 4678722708180626787, guid: 2a2c51d3a218d8c4bbef6f53b8f02ba5, type: 3}
+  - {fileID: 4955366796166933125, guid: d1feffa5623ff094684271bb4db22118, type: 3}
+  - {fileID: -7584495489610731051, guid: 304f733e9044dcf4a9801bd293cd9d93, type: 3}
+  - {fileID: 8587101034162421143, guid: 0f999e50322052d49b5b9de96a2baacd, type: 3}
+  - {fileID: 606014095758683016, guid: 7294c94832e6f1e4eb111d3df25bf938, type: 3}
+  - {fileID: 3176867335430615500, guid: c3dee8ff9700b21449d250d82d19e130, type: 3}
+  - {fileID: -8114904594678326785, guid: 1dca09ee33e1d71448f6b8c3ef2c76fc, type: 3}
+  - {fileID: 7529491463985110477, guid: da831913fefaf9f4992b289c8403ee9c, type: 3}
+  - {fileID: -6188014457906723170, guid: 3f6e247ce681a56459df1cfb4133d58c, type: 3}
+  - {fileID: 1889763107618439838, guid: f861eaf3b63e78f45b0d049fca79bae3, type: 3}
+  - {fileID: -6143150836566291710, guid: 89435e44f3f822a44bf73bbff09396a5, type: 3}
+  - {fileID: 4828033989162380492, guid: cc99068e22f2243439edaa2dcf8bac59, type: 3}
+  - {fileID: 7965040507511784003, guid: 9888b24cab0a29e4181d27b583e4b259, type: 3}
+  - {fileID: 1924068369886463609, guid: 60501177cd1795f40b999f6cde0b7280, type: 3}
+  - {fileID: -4963133103640980959, guid: 4a4eba0979a636445b1ab723b5e56211, type: 3}
+  - {fileID: -1232238459989419140, guid: 52e13e5e2e8f84e489e516171021c4d8, type: 3}
+  - {fileID: 4017672041825915828, guid: c6f304de0ab5e3148a2fb8efe3a74d3f, type: 3}
+  - {fileID: -8302430952519878323, guid: 173736a5b58c7f44289f7a2f76a54d68, type: 3}
+  - {fileID: -460792415530991577, guid: 97e812e0bc020b74a8cb5415cbcb5043, type: 3}
+  - {fileID: -7469151941275607511, guid: 8025e44cc4d32c9409e302cc662fd471, type: 3}
+  - {fileID: 1908074657083407621, guid: 8a9d61d0d5d43e445a769668575780b7, type: 3}
+  - {fileID: 4180236706613335278, guid: a524ac21888812f44b27ce8d61ac2e58, type: 3}
+  - {fileID: -3375008809180957005, guid: 191d642d06d6e9046a73231df41bcb90, type: 3}
+  - {fileID: -6831658466286236699, guid: 68752d03962c41f409ff58e85509ce64, type: 3}
+  - {fileID: -1163559668801015539, guid: 326e9b16e94b478459cd578ebdd6d581, type: 3}
+  - {fileID: -4020731759285459316, guid: 6b658feb3a968284abfd6a9b1acd6239, type: 3}
+  - {fileID: -7794739695802180645, guid: d9cebca4b674b3240b62cfc93c2fde58, type: 3}
+  - {fileID: 530714413339037799, guid: 141ebb945266128499dd388b84b2e65a, type: 3}
+  - {fileID: -4283565274580731139, guid: ebc55c7e17c193e439e96c2e9568a636, type: 3}
+  - {fileID: -5757196810992682659, guid: 7dee787d2645a2f4997e1ed6fd7467d5, type: 3}
+  - {fileID: -9001865781263019467, guid: dad05c34125d3ed4da79d5ab6dde1ecb, type: 3}
+  - {fileID: -5425641444668281553, guid: 9f61970abc20a2240b4efbc3c5c787fd, type: 3}
+  Skills:
+  - {fileID: 11400000, guid: adc5321dae24ea345a06d2882c59d72c, type: 2}
+  - {fileID: 11400000, guid: c4364abfd5655b540941a4aa1fc0a40a, type: 2}
+  - {fileID: 11400000, guid: 95d0eb08cc05ed648bf82eb0ab790c90, type: 2}
+  - {fileID: 11400000, guid: b368670069b1fd94eb2b197e52dbfe13, type: 2}
+  - {fileID: 11400000, guid: a30801c0c4a7cd6429e60120a7add82f, type: 2}
+  - {fileID: 11400000, guid: f5e51ebf7ab36a742910e3787aeae3d6, type: 2}
+  - {fileID: 11400000, guid: 265189d731428eb409b0cc3dcf4d17f6, type: 2}
+  - {fileID: 11400000, guid: 3f2f2a8fef2671046addf748b0404663, type: 2}
+  - {fileID: 11400000, guid: 8131e906ad0ceb84282af5143d026c5b, type: 2}
+  DecisionsDelay:
+    Min: 0
+    Max: 10
+  BlockProbabilityCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.01
+      outSlope: -0.0017907645
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.14473684
+    - serializedVersion: 3
+      time: 100
+      value: 0
+      inSlope: -0.028294101
+      outSlope: -0.01
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.03947365
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  TendencyToMove:
+    Min: 1
+    Max: 1
+  MoveDecisionInterval:
+    Min: 1000
+    Max: 1000
+  DestinationReachedDistance: 6
+  NextDestinationRadius: 100
+  PreferredDistanceFromBall:
+    Min: 1
+    Max: 100
+  TendencyToChangeTarget:
+    Min: 0
+    Max: 0
+  ChangeTargetInterval:
+    Min: 1000
+    Max: 1000
+  TendencyToLockRotation:
+    Min: 0
+    Max: 0
+  LockRotationInterval:
+    Min: 1000
+    Max: 1000
+  JumpInterval:
+    Min: 5
+    Max: 5
+  JumpProbability:
+    Min: 0.4
+    Max: 0.4
+  DoubleJumpProbability:
+    Min: 0.3
+    Max: 0.3
+  JumpTimings:
+    FirstPress: 0.01
+    Pause: 0.5
+    SecondPress: 0.01
+  UseSkillInterval:
+    Min: 5
+    Max: 5
+  UseSkillProbability:
+    Min: 0.4
+    Max: 0.4

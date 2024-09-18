@@ -1,0 +1,1894 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d96290c19ab41588d23ed8ca0f1d52d, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  MinPlayers: 5
+  MaxPlayers: 15
+  IsWeaponAlwaysInHand: 0
+  CoinsForWin: 10
+  CoinsForKill: 5
+  CoinsForRewarded: 100
+  NewSaveCoins: 0
+  NewSaveCrystals: 0
+  DelayAfterAllKilled: 3
+  CharacterDeathHeightBottom: -100
+  CharacterDeathHeightTop: 500
+  TutorialBotsCount: 3
+  FirstVizitLevel:
+    Name: 
+    SceneRef:
+      m_AssetGUID: 9334bdf5ae60eee4b958097056ccaa50
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  TestLevel:
+    Name: Test
+    SceneRef:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  AFKSceneRef:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  Levels:
+  - Name: Arena
+    SceneRef:
+      m_AssetGUID: d87bcc5839b855142bad71090470b16e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: AzureBeach
+    SceneRef:
+      m_AssetGUID: f208a88aa05bb61448f961066316af8d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: DesertRocks
+    SceneRef:
+      m_AssetGUID: d5480e09469e30c4bb4de9e1b9d5b244
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: GreenGarden
+    SceneRef:
+      m_AssetGUID: 2b6349c25d1f43847ab15ea83b842bd0
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: NightForest
+    SceneRef:
+      m_AssetGUID: 0f62231baecba094ca697a9fa5510fc7
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Halloween
+    SceneRef:
+      m_AssetGUID: 9334bdf5ae60eee4b958097056ccaa50
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  _botConfigs:
+  - Config: {fileID: 11400000, guid: b0a39ed2cd9557c4e96d8ce88a2018fe, type: 2}
+    Weight: 849
+  - Config: {fileID: 11400000, guid: 0ee1b2dc2e348144e867b8f4fe6eb50e, type: 2}
+    Weight: 50
+  - Config: {fileID: 11400000, guid: c87c96387bdaaf54db547036fb46534f, type: 2}
+    Weight: 100
+  - Config: {fileID: 11400000, guid: ddd11d5cba4fc4e4a82bea93512d40e5, type: 2}
+    Weight: 1
+  _botConfigsTutorial:
+  - Config: {fileID: 11400000, guid: 6742878b09f748b4cafa256c1135a6dc, type: 2}
+    Weight: 1
+  _skillsList:
+  - {fileID: 11400000, guid: 95d0eb08cc05ed648bf82eb0ab790c90, type: 2}
+  - {fileID: 11400000, guid: a30801c0c4a7cd6429e60120a7add82f, type: 2}
+  - {fileID: 11400000, guid: b368670069b1fd94eb2b197e52dbfe13, type: 2}
+  - {fileID: 11400000, guid: f5e51ebf7ab36a742910e3787aeae3d6, type: 2}
+  - {fileID: 11400000, guid: 265189d731428eb409b0cc3dcf4d17f6, type: 2}
+  - {fileID: 11400000, guid: ace1740b28562e649a5d50e5a111aa46, type: 2}
+  - {fileID: 11400000, guid: a8bf3257164de434fb83b21f1a296496, type: 2}
+  - {fileID: 11400000, guid: c4364abfd5655b540941a4aa1fc0a40a, type: 2}
+  - {fileID: 11400000, guid: adc5321dae24ea345a06d2882c59d72c, type: 2}
+  - {fileID: 11400000, guid: 8131e906ad0ceb84282af5143d026c5b, type: 2}
+  - {fileID: 11400000, guid: 3f2f2a8fef2671046addf748b0404663, type: 2}
+  - {fileID: 11400000, guid: 728ae663aae6a7e4d9525c019b7c222b, type: 2}
+  _weaponsList:
+  - Id: 0
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 65574735872
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 0
+    Prefab: {fileID: -780608692189821272, guid: 689a3e31eb93eee4fad5829826ad526c, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      IdleOffset: {x: 0, y: 0, z: 0}
+      IdleRotation: {x: 0, y: 0, z: 0}
+      PreviewPosition: {x: -216, y: -202, z: 0}
+      PreviewRotation: {x: 50.202316, y: 90, z: -0.0000026677133}
+      PreviewScale: {x: 468.2, y: 468.2, z: 468.2}
+      IconPosition: {x: -84, y: -72, z: 0}
+      IconRotation: {x: 52.095425, y: 90, z: 0}
+      IconScale: {x: 170, y: 170, z: 170}
+  - Id: 1
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 177172582400
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 100
+    Prefab: {fileID: -7361431902512897350, guid: 41d985b55e458ab4f897150371c53fe8, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      IdleOffset: {x: 0, y: 0, z: 0}
+      IdleRotation: {x: 0, y: 0, z: 0}
+      PreviewPosition: {x: -199, y: -171, z: 0}
+      PreviewRotation: {x: 45.000008, y: 90, z: 0}
+      PreviewScale: {x: 523.8, y: 523.8, z: 523.8}
+      IconPosition: {x: -64, y: -56, z: 0}
+      IconRotation: {x: 47.26351, y: 90, z: 0}
+      IconScale: {x: 186.2, y: 186.2, z: 186.2}
+  - Id: 2
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 14990464454656
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 200
+    Prefab: {fileID: 2596600775513694329, guid: 73fd7afd4b0f4314691d0fb3e7f0605b, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      IdleOffset: {x: 0, y: 0, z: 0}
+      IdleRotation: {x: 0, y: 0, z: 0}
+      PreviewPosition: {x: -241, y: -232, z: 0}
+      PreviewRotation: {x: 46.657825, y: 90, z: 0}
+      PreviewScale: {x: 488.59998, y: 488.59998, z: 488.59998}
+      IconPosition: {x: -86, y: -86, z: 0}
+      IconRotation: {x: 45.8664, y: 90, z: 0}
+      IconScale: {x: 179.20001, y: 179.20001, z: 179.20001}
+  - Id: 3
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 16116425363456
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 300
+    Prefab: {fileID: -4458896374099372131, guid: a143cbd32753eed4da9ec01fac7d642d, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      IdleOffset: {x: 0, y: 0, z: 0}
+      IdleRotation: {x: 0, y: 0, z: 0}
+      PreviewPosition: {x: -177, y: -169, z: -171}
+      PreviewRotation: {x: 41.92082, y: 122.91774, z: 24.080784}
+      PreviewScale: {x: 814.9, y: 814.9, z: 814.9}
+      IconPosition: {x: -60, y: -60, z: 0}
+      IconRotation: {x: 45.000008, y: 90, z: 0}
+      IconScale: {x: 276.2, y: 276.2, z: 276.2}
+  - Id: 4
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 1149255715643392
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 400
+    Prefab: {fileID: -2713984604414453803, guid: c0b4b7ac6bf25384aae33ae477e53676, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      IdleOffset: {x: 0, y: 0, z: 0}
+      IdleRotation: {x: 0, y: 0, z: 0}
+      PreviewPosition: {x: -241, y: -206, z: 0}
+      PreviewRotation: {x: 49.21124, y: 90.09465, z: 359.54742}
+      PreviewScale: {x: 621.8, y: 621.8, z: 621.8}
+      IconPosition: {x: -91, y: -69, z: 0}
+      IconRotation: {x: 48.606255, y: 90, z: 0}
+      IconScale: {x: 220.9, y: 220.9, z: 220.9}
+  - Id: 5
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 15236791734272
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 500
+    Prefab: {fileID: 3071104476886454896, guid: a020d99942d98f24a84acb4c08960dae, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      IdleOffset: {x: 0, y: 0, z: 0}
+      IdleRotation: {x: 7.679581, y: 286.84088, z: 348.5189}
+      PreviewPosition: {x: -219, y: -202, z: -126}
+      PreviewRotation: {x: 25.308067, y: 154.91006, z: 40.843174}
+      PreviewScale: {x: 851.5, y: 851.5, z: 851.5}
+      IconPosition: {x: -72, y: -72, z: 0}
+      IconRotation: {x: 4.6346264, y: 175.31436, z: 46.405388}
+      IconScale: {x: 298.7, y: 298.7, z: 298.7}
+  - Id: 6
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 1226466573410304
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 600
+    Prefab: {fileID: -4484348845291436305, guid: 88bab8a02e880284ca0ef00720d5c2be, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: -0.3, y: -0.85, z: 0.06}
+      Rotation: {x: 355.29327, y: 1.8572414, z: 341.01117}
+      IdleOffset: {x: 0.767, y: -0.081, z: -1.788}
+      IdleRotation: {x: 325.17807, y: 62.326897, z: 66.43176}
+      PreviewPosition: {x: -341, y: -324, z: -99}
+      PreviewRotation: {x: 5.964208, y: 9.440822, z: 313.42188}
+      PreviewScale: {x: 287, y: 287, z: 287}
+      IconPosition: {x: -130, y: -122, z: -1}
+      IconRotation: {x: 6.8180513, y: 11.292798, z: 312.88843}
+      IconScale: {x: 105.4, y: 105.4, z: 105.4}
+  - Id: 7
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5279958959120384
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 700
+    Prefab: {fileID: 3131700852315721735, guid: 06551cea39f256e47804ccc5039bbff7, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: -0.015, y: 0.032, z: 0.041}
+      Rotation: {x: 3.8034327, y: 177.95897, z: 192.15388}
+      IdleOffset: {x: -0.514, y: 0.408, z: -0.452}
+      IdleRotation: {x: 356.06552, y: 45.41477, z: 71.52044}
+      PreviewPosition: {x: -213, y: -184, z: -136}
+      PreviewRotation: {x: 43.87914, y: 86.33931, z: 165.85744}
+      PreviewScale: {x: 539.3, y: 539.3, z: 539.3}
+      IconPosition: {x: -78, y: -67, z: -2}
+      IconRotation: {x: 45.293865, y: 100.97506, z: 183.86887}
+      IconScale: {x: 195.5, y: 195.5, z: 195.5}
+  - Id: 8
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 1225639951589376
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 800
+    Prefab: {fileID: 2769690614331573367, guid: 02f541d2a7e37b748af6a17a7973dfd7, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: 0, y: -2.13, z: -0.22}
+      Rotation: {x: 358.05768, y: 254.51256, z: 355.46503}
+      IdleOffset: {x: -0.476, y: -1.64, z: -0.139}
+      IdleRotation: {x: 17.06832, y: 46.219353, z: 355.02814}
+      PreviewPosition: {x: -346, y: -313, z: -97}
+      PreviewRotation: {x: 358.9912, y: 4.8974338, z: 311.61105}
+      PreviewScale: {x: 223, y: 223, z: 223}
+      IconPosition: {x: -130, y: -125, z: 0}
+      IconRotation: {x: 359.7457, y: 4.9935484, z: 313.708}
+      IconScale: {x: 82.6, y: 82.6, z: 82.6}
+  - Id: 9
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5282815317893120
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 900
+    Prefab: {fileID: 5072195884006611178, guid: 2e48d8acd07a6a44bb0757c4742d2f36, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: -0.048, y: -0.031, z: 0.033}
+      Rotation: {x: 7.7962785, y: 345.00555, z: 351.44366}
+      IdleOffset: {x: -0.038, y: 0.217, z: 0.071}
+      IdleRotation: {x: 0.6109737, y: 259.0272, z: 324.5667}
+      PreviewPosition: {x: -171, y: -159, z: -112}
+      PreviewRotation: {x: 5.0804987, y: 10.730932, z: 304.94077}
+      PreviewScale: {x: 713.3, y: 713.3, z: 713.3}
+      IconPosition: {x: -66, y: -56, z: -5}
+      IconRotation: {x: 0, y: 5.0000014, z: 304.6257}
+      IconScale: {x: 259.6, y: 259.6, z: 259.6}
+  - Id: 10
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 16328879443968
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 1000
+    Prefab: {fileID: -7533754261513814120, guid: b6f47e89c42874b42bcd9908dfbff4eb, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 180, z: 180}
+      IdleOffset: {x: 0, y: 0, z: 0}
+      IdleRotation: {x: 0, y: 180, z: 180}
+      PreviewPosition: {x: -118, y: -101, z: -129}
+      PreviewRotation: {x: 44.951862, y: 93.32044, z: 169.90382}
+      PreviewScale: {x: 747, y: 747, z: 747}
+      IconPosition: {x: -44, y: -44, z: -167}
+      IconRotation: {x: 45, y: 90, z: 159.02031}
+      IconScale: {x: 282.7, y: 282.7, z: 282.7}
+  - Id: 11
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5266855412359168
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 1100
+    Prefab: {fileID: 2503586307311138091, guid: 6737b45265c771840bb50861f6382035, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: 0.001, y: -0.026, z: 0.012}
+      Rotation: {x: 358.4343, y: 331.6372, z: 359.63602}
+      IdleOffset: {x: 0.667, y: -0.06, z: -1.363}
+      IdleRotation: {x: 64.72316, y: 359.19974, z: 42.21974}
+      PreviewPosition: {x: -212, y: -202, z: -107}
+      PreviewRotation: {x: 22.13456, y: 27.930107, z: 316.30484}
+      PreviewScale: {x: 524.8, y: 524.8, z: 524.8}
+      IconPosition: {x: -87, y: -76, z: -31}
+      IconRotation: {x: 28.324266, y: 32.726063, z: 317.92688}
+      IconScale: {x: 195.6, y: 195.6, z: 195.6}
+  - Id: 12
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 1219231860383744
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 1200
+    Prefab: {fileID: -7693710870060906863, guid: 1a089fa117e676342a0d88b6ae0dd6d1, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: -0.375, y: -1.401, z: 0.023}
+      Rotation: {x: 346.69415, y: 280.60376, z: 357.89352}
+      IdleOffset: {x: 0.83, y: -0.04, z: -1.89}
+      IdleRotation: {x: 296.7923, y: 196.81693, z: 301.1154}
+      PreviewPosition: {x: -337, y: -305, z: -97}
+      PreviewRotation: {x: 359.0469, y: 4.9085507, z: 310.96155}
+      PreviewScale: {x: 245.89998, y: 245.89998, z: 245.89998}
+      IconPosition: {x: -116, y: -120, z: 0}
+      IconRotation: {x: 0, y: 5.0000014, z: 310.80002}
+      IconScale: {x: 88.3, y: 88.3, z: 88.3}
+  - Id: 13
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5284471401078784
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 1300
+    Prefab: {fileID: 1012552076523359524, guid: abf46e9186652ad479762982090f5ca6, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: 0.046, y: 0.028, z: 0.022}
+      Rotation: {x: 349.85217, y: 7.1350226, z: 357.72217}
+      IdleOffset: {x: 0.031, y: 0.001, z: -0.023}
+      IdleRotation: {x: 338.28366, y: 219.10039, z: 335.23114}
+      PreviewPosition: {x: -233, y: -228, z: -181}
+      PreviewRotation: {x: 347.39423, y: 29.159447, z: 307.40344}
+      PreviewScale: {x: 875.69995, y: 875.69995, z: 875.69995}
+      IconPosition: {x: -89, y: -89, z: -3}
+      IconRotation: {x: 349.50714, y: 16.606161, z: 311.56342}
+      IconScale: {x: 301.1, y: 301.1, z: 301.1}
+  - Id: 14
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5281392077299712
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 1400
+    Prefab: {fileID: 2387170538306031333, guid: 5114613ff9130d44ebcbb0829b5d7cdd, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: 0.03, y: -0.05, z: 0.03}
+      Rotation: {x: 357.56546, y: 206.73001, z: 190.8765}
+      IdleOffset: {x: -0.33, y: 0.4, z: -0.4}
+      IdleRotation: {x: 319.9552, y: 60.369434, z: 68.256195}
+      PreviewPosition: {x: -156, y: -114, z: -101}
+      PreviewRotation: {x: 39.238155, y: 103.42361, z: 187.73785}
+      PreviewScale: {x: 341.2, y: 341.2, z: 341.2}
+      IconPosition: {x: -62, y: -43, z: -19}
+      IconRotation: {x: 39.435223, y: 81.43541, z: 163.53961}
+      IconScale: {x: 127.8, y: 127.8, z: 127.8}
+  - Id: 15
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 16513923747840
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 1500
+    Prefab: {fileID: -637316957648226024, guid: fd98d2991f574e44d9beb1ccf2c2b182, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      IdleOffset: {x: 0, y: 0, z: 0}
+      IdleRotation: {x: 0, y: 0, z: 0}
+      PreviewPosition: {x: -187, y: -155, z: 0}
+      PreviewRotation: {x: 48.10832, y: 90.00001, z: 0.0000051145266}
+      PreviewScale: {x: 756.3, y: 756.3, z: 756.3}
+      IconPosition: {x: -65, y: -55, z: 0}
+      IconRotation: {x: 50.327187, y: 90, z: -0.0000026747182}
+      IconScale: {x: 278.7, y: 278.7, z: 278.7}
+  - Id: 16
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 1227275839201280
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 1600
+    Prefab: {fileID: -7394766729527028266, guid: 517a135e1c75c1b47918d89235a52225, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: 0.007, y: -0.606, z: 0.022}
+      Rotation: {x: 359.09055, y: 272.5161, z: 358.18835}
+      IdleOffset: {x: -0.026, y: -0.347, z: 0.102}
+      IdleRotation: {x: 0.9520847, y: 95.453606, z: 359.42303}
+      PreviewPosition: {x: -340, y: -321, z: -97}
+      PreviewRotation: {x: 358.8823, y: 4.873786, z: 312.8853}
+      PreviewScale: {x: 307.4, y: 307.4, z: 307.4}
+      IconPosition: {x: -127, y: -128, z: 0}
+      IconRotation: {x: 359.7756, y: 4.994981, z: 313.36584}
+      IconScale: {x: 113.5, y: 113.5, z: 113.5}
+  - Id: 17
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 15931079069696
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 1700
+    Prefab: {fileID: 1319636039857710864, guid: dd1a03aaf6ea30a47aebc6ba74b95abf, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      IdleOffset: {x: 0, y: 0, z: 0}
+      IdleRotation: {x: 0, y: 0, z: 0}
+      PreviewPosition: {x: -196, y: -197, z: -236}
+      PreviewRotation: {x: 42.476982, y: 165.15247, z: 31.698393}
+      PreviewScale: {x: 806.9, y: 806.9, z: 806.9}
+      IconPosition: {x: -69, y: -69, z: -89}
+      IconRotation: {x: 42.706623, y: 177.04726, z: 35.376053}
+      IconScale: {x: 284.5, y: 284.5, z: 284.5}
+  - Id: 18
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 16730748293120
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 1800
+    Prefab: {fileID: 7502715812641441341, guid: f1443a07fa4d1dd449b0b1dab4b0973d, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: -0.005, y: 0.007, z: -0.028}
+      Rotation: {x: 0, y: 0, z: -96}
+      IdleOffset: {x: -0.21097136, y: -0.21967717, z: -0.7055179}
+      IdleRotation: {x: 325.9401, y: 346.518, z: 2.3330357}
+      PreviewPosition: {x: -190, y: -180, z: 0}
+      PreviewRotation: {x: -45, y: 90, z: -60}
+      PreviewScale: {x: 1300, y: 1300, z: 1300}
+      IconPosition: {x: -60, y: -60, z: 0}
+      IconRotation: {x: -45, y: 90, z: -60}
+      IconScale: {x: 420, y: 420, z: 420}
+  - Id: 19
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 1227580442140672
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 1900
+    Prefab: {fileID: -5393510450454423136, guid: 70bb878eaac18f94ca0e6aff9e86a79f, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: -0.478, y: -0.726, z: 0.041}
+      Rotation: {x: 1.9393194, y: 2.2883005, z: 325.53278}
+      IdleOffset: {x: -1.53, y: 0.75, z: 0.32}
+      IdleRotation: {x: 64.723145, y: 359.1998, z: 228.86356}
+      PreviewPosition: {x: -340, y: -327, z: -96}
+      PreviewRotation: {x: 4.697276, y: 10.207606, z: 313.21124}
+      PreviewScale: {x: 226.5, y: 226.5, z: 226.5}
+      IconPosition: {x: -125, y: -118, z: 0}
+      IconRotation: {x: 0, y: 5.0000014, z: 312.33392}
+      IconScale: {x: 82.6, y: 82.6, z: 82.6}
+  - Id: 20
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5261069432905728
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 2000
+    Prefab: {fileID: -1084964145055117213, guid: 37e0adced28794b45968c2405c0751a5, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: -0.054, y: -0.257, z: -0.029}
+      Rotation: {x: 9.580746, y: 111.45476, z: 8.924512}
+      IdleOffset: {x: 0.062, y: -0.581, z: -0.238}
+      IdleRotation: {x: 357.4846, y: 79.882065, z: 16.121674}
+      PreviewPosition: {x: -364, y: -277, z: -108}
+      PreviewRotation: {x: 11.348897, y: 175.19841, z: 51.926994}
+      PreviewScale: {x: 443, y: 443, z: 443}
+      IconPosition: {x: -119, y: -103, z: 1}
+      IconRotation: {x: 352.28256, y: 191.71747, z: 51.821705}
+      IconScale: {x: 154.5, y: 154.5, z: 154.5}
+  - Id: 21
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5244922000039936
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 2100
+    Prefab: {fileID: 9167742978877899022, guid: cc37bfcf4281ff949938d6ea621f3474, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: -0.069, y: -1.065, z: 0.09}
+      Rotation: {x: 353.97937, y: 293.60574, z: 2.197676}
+      IdleOffset: {x: 0.667, y: -0.06, z: -1.363}
+      IdleRotation: {x: 64.72316, y: 359.19974, z: 42.21974}
+      PreviewPosition: {x: -337, y: -324, z: -96}
+      PreviewRotation: {x: 4.732682, y: 10.258705, z: 312.89185}
+      PreviewScale: {x: 291.1, y: 291.1, z: 291.1}
+      IconPosition: {x: -125, y: -118, z: 0}
+      IconRotation: {x: 0, y: 5.0000014, z: 313.0602}
+      IconScale: {x: 105.2, y: 105.2, z: 105.2}
+  - Id: 22
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5178314510557184
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 2200
+    Prefab: {fileID: 6932507206011331330, guid: 4c541362b4205fb4e8189e835fa605d7, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: 0.011, y: 0.018, z: 0.049}
+      Rotation: {x: 284.58676, y: 142.6222, z: 138.53946}
+      IdleOffset: {x: -0.8, y: 0.25, z: -0.88}
+      IdleRotation: {x: 340.90045, y: 31.697952, z: 172.15714}
+      PreviewPosition: {x: -214, y: -203, z: -113}
+      PreviewRotation: {x: 319.84323, y: 102.447495, z: 272.64926}
+      PreviewScale: {x: 608.6, y: 608.6, z: 608.6}
+      IconPosition: {x: -69, y: -60, z: -56}
+      IconRotation: {x: 319.539, y: 90, z: 308.57584}
+      IconScale: {x: 211.42, y: 211.42, z: 211.42}
+  - Id: 23
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5246248327045120
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 2300
+    Prefab: {fileID: 6831997853974494455, guid: 06cc60fd680a98c48a401dea98106496, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: 0.037, y: 0.004, z: 0.004}
+      Rotation: {x: 352.47476, y: 2.8622365, z: 353.47086}
+      IdleOffset: {x: 0.093, y: -0.071, z: -0.194}
+      IdleRotation: {x: 28.987183, y: 351.5345, z: 8.403088}
+      PreviewPosition: {x: -202, y: -195, z: -109}
+      PreviewRotation: {x: 43.471333, y: 124.81559, z: 20.827711}
+      PreviewScale: {x: 811.4, y: 811.4, z: 811.4}
+      IconPosition: {x: -76, y: -72, z: -4}
+      IconRotation: {x: 312.94794, y: 276.13962, z: 358.93323}
+      IconScale: {x: 289.3, y: 289.3, z: 289.3}
+  - Id: 24
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5273647668256768
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 2400
+    Prefab: {fileID: -7118894263284259539, guid: 26126045a1141b64b9b961d6673732e8, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: -0.02, y: -0.293, z: -0.003}
+      Rotation: {x: 359.10327, y: 263.20428, z: 2.8658621}
+      IdleOffset: {x: 1.15, y: -0.11, z: -1.85}
+      IdleRotation: {x: 73.61574, y: 332.2979, z: 17.25445}
+      PreviewPosition: {x: -334, y: -322, z: -97}
+      PreviewRotation: {x: 4.732683, y: 10.258705, z: 313.6555}
+      PreviewScale: {x: 263, y: 263, z: 263}
+      IconPosition: {x: -129, y: -121, z: 0}
+      IconRotation: {x: 0, y: 5.0000033, z: 312.60345}
+      IconScale: {x: 97.9, y: 97.9, z: 97.9}
+  - Id: 25
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5275721743196160
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 2500
+    Prefab: {fileID: -160587504076975201, guid: 567d0409de4b49b4e924a31562394c1d, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: -0.465, y: -0.538, z: 0.109}
+      Rotation: {x: 348.0503, y: 2.616947, z: 321.3658}
+      IdleOffset: {x: 1.14, y: -0.28, z: -1.82}
+      IdleRotation: {x: 64.72316, y: 359.19974, z: 42.219746}
+      PreviewPosition: {x: -340, y: -327, z: -96}
+      PreviewRotation: {x: 4.732682, y: 10.258704, z: 313.63873}
+      PreviewScale: {x: 255.6, y: 255.6, z: 255.6}
+      IconPosition: {x: -125, y: -118, z: 0}
+      IconRotation: {x: 0, y: 5.0000014, z: 312.71445}
+      IconScale: {x: 90.6, y: 90.6, z: 90.6}
+  - Id: 26
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5272607917072384
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 2600
+    Prefab: {fileID: -2398834428710089794, guid: c607d3ad7589b924eaab7b1383906cef, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: -0.014, y: 0.014, z: 0.018}
+      Rotation: {x: 8.649396, y: 77.51175, z: 171.66832}
+      IdleOffset: {x: -0.412, y: 0.45, z: -0.325}
+      IdleRotation: {x: 354.8778, y: 45.81331, z: 73.411026}
+      PreviewPosition: {x: -171, y: -167, z: -139}
+      PreviewRotation: {x: 313.4803, y: 270.28168, z: 190.29733}
+      PreviewScale: {x: 339.5, y: 339.5, z: 339.5}
+      IconPosition: {x: -65, y: -64, z: -25}
+      IconRotation: {x: 315.04437, y: 257.65723, z: 206.00009}
+      IconScale: {x: 125.9, y: 125.9, z: 125.9}
+  - Id: 27
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5262639893569536
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 2700
+    Prefab: {fileID: 6790340279874401462, guid: 4466d01c8d980524886041426f7ecf1f, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: -0.056, y: -0.325, z: -0.028}
+      Rotation: {x: 358.3208, y: 0.40600014, z: 350.3323}
+      IdleOffset: {x: 0.234, y: -0.289, z: -0.251}
+      IdleRotation: {x: 17.441153, y: 268.17407, z: 342.19843}
+      PreviewPosition: {x: -337, y: -303, z: -105}
+      PreviewRotation: {x: 41.01666, y: 57.757557, z: 333.4216}
+      PreviewScale: {x: 473.9, y: 473.9, z: 473.9}
+      IconPosition: {x: -125, y: -118, z: 0}
+      IconRotation: {x: -0.00000021344341, y: 5.0000014, z: 312.65436}
+      IconScale: {x: 164.3, y: 164.3, z: 164.3}
+  - Id: 28
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5268425101271040
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 2800
+    Prefab: {fileID: -170827248394466961, guid: ab928074e86c37445b9a0826030a868f, type: 3}
+    Category: 2
+    Offsets:
+      Offset: {x: -0.19, y: -0.385, z: 0.058}
+      Rotation: {x: 342.49872, y: 279.56653, z: 3.986396}
+      IdleOffset: {x: 0.276, y: -0.697, z: -0.062}
+      IdleRotation: {x: 13.071184, y: 264.16678, z: 0.6245598}
+      PreviewPosition: {x: -340, y: -327, z: -96}
+      PreviewRotation: {x: 4.7326818, y: 10.258704, z: 313.59293}
+      PreviewScale: {x: 303.1, y: 303.1, z: 303.1}
+      IconPosition: {x: -125, y: -118, z: 0}
+      IconRotation: {x: 0, y: 5.0000014, z: 312.79352}
+      IconScale: {x: 109.6, y: 109.6, z: 109.6}
+  - Id: 29
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 15522386087936
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 2900
+    Prefab: {fileID: 6691493001528182942, guid: fe0c5cc31cdd5944ca934b7dccfd36e8, type: 3}
+    Category: 2
+    Offsets:
+      Offset: {x: -0.051, y: -0.299, z: 0.28}
+      Rotation: {x: 273.63702, y: 35.95853, z: 322.44327}
+      IdleOffset: {x: 0.286, y: 0.34, z: -1.114}
+      IdleRotation: {x: 343.13953, y: 314.10968, z: 107.6557}
+      PreviewPosition: {x: -277, y: -256, z: 0}
+      PreviewRotation: {x: 316.50137, y: 90, z: 0}
+      PreviewScale: {x: 420, y: 420, z: 420}
+      IconPosition: {x: -95, y: -92, z: 0}
+      IconRotation: {x: 315, y: 90, z: 0}
+      IconScale: {x: 152.8, y: 152.8, z: 152.8}
+  - Id: 30
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 1149245632536576
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 3000
+    Prefab: {fileID: -7825171168599258433, guid: b8b05915640f27a409db728f3041b6d1, type: 3}
+    Category: 2
+    Offsets:
+      Offset: {x: -0.005, y: 0.007, z: 0.054}
+      Rotation: {x: 1.547406, y: 110.400894, z: 357.9669}
+      IdleOffset: {x: 0, y: 0, z: 0}
+      IdleRotation: {x: 0, y: 0, z: 0}
+      PreviewPosition: {x: -127, y: -122, z: -97}
+      PreviewRotation: {x: 359.16605, y: 4.930141, z: 309.57745}
+      PreviewScale: {x: 830, y: 830, z: 830}
+      IconPosition: {x: -43, y: -43, z: 0}
+      IconRotation: {x: 0, y: 5.000002, z: 310.80002}
+      IconScale: {x: 309.4, y: 309.4, z: 309.4}
+  - Id: 31
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5269534645673984
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 3100
+    Prefab: {fileID: 2804024758591331219, guid: 4797a7e20ef868042a5cf3e9fdfa5c5b, type: 3}
+    Category: 2
+    Offsets:
+      Offset: {x: 0.004, y: -1.263, z: 0.121}
+      Rotation: {x: 358.88943, y: 275.99088, z: 5.6181417}
+      IdleOffset: {x: 2.31, y: -0.5, z: -3.4}
+      IdleRotation: {x: 73.57523, y: 349.9901, z: 32.675}
+      PreviewPosition: {x: -340, y: -327, z: -96}
+      PreviewRotation: {x: 4.7326818, y: 10.258704, z: 313.42255}
+      PreviewScale: {x: 192.6, y: 192.6, z: 192.6}
+      IconPosition: {x: -125, y: -118, z: 0}
+      IconRotation: {x: 0, y: 5.0000014, z: 312.3776}
+      IconScale: {x: 69.7, y: 69.7, z: 69.7}
+  - Id: 32
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5271403413626880
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 3200
+    Prefab: {fileID: 1252174498153883859, guid: f0d257d231bec384fb74ff18d35f7f37, type: 3}
+    Category: 2
+    Offsets:
+      Offset: {x: -0.105, y: -0.46, z: -0.061}
+      Rotation: {x: 347.9766, y: 271.033, z: 355.90692}
+      IdleOffset: {x: 0.844, y: 0.058, z: -1.643}
+      IdleRotation: {x: 71.22521, y: 358.33643, z: 46.396606}
+      PreviewPosition: {x: -293, y: -283, z: -101}
+      PreviewRotation: {x: 4.7326818, y: 10.258705, z: 313.9649}
+      PreviewScale: {x: 244.7, y: 244.7, z: 244.7}
+      IconPosition: {x: -104, y: -99, z: -2}
+      IconRotation: {x: 0, y: 5.0000024, z: 312.79544}
+      IconScale: {x: 89.1, y: 89.1, z: 89.1}
+  - Id: 33
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5276958056243200
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 3300
+    Prefab: {fileID: 3092225853576062781, guid: 2398b43268e79184fa11b4396cb8bd1b, type: 3}
+    Category: 2
+    Offsets:
+      Offset: {x: 0.028, y: -0.029, z: 0.036}
+      Rotation: {x: 0, y: 0, z: 357.56332}
+      IdleOffset: {x: -0.029, y: 0.126, z: -0.016}
+      IdleRotation: {x: 11.475438, y: 261.24796, z: 333.06625}
+      PreviewPosition: {x: -180, y: -168, z: -112}
+      PreviewRotation: {x: 4.7762547, y: 10.320773, z: 312.50223}
+      PreviewScale: {x: 731.8, y: 731.8, z: 731.8}
+      IconPosition: {x: -67, y: -62, z: -6}
+      IconRotation: {x: 0, y: 5.0000014, z: 311.72705}
+      IconScale: {x: 275.9, y: 275.9, z: 275.9}
+  - Id: 34
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5274653193920512
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 3400
+    Prefab: {fileID: 5452942333084392775, guid: d47e4a478fdbda344aebf3ba399b7730, type: 3}
+    Category: 2
+    Offsets:
+      Offset: {x: -0.187, y: -1.103, z: -0.028}
+      Rotation: {x: 9.32438, y: 91.24687, z: 0.20208395}
+      IdleOffset: {x: 1.236, y: -0.324, z: -1.914}
+      IdleRotation: {x: 64.72316, y: 359.19974, z: 42.219746}
+      PreviewPosition: {x: -340, y: -327, z: -96}
+      PreviewRotation: {x: 4.732683, y: 10.258704, z: 313.78876}
+      PreviewScale: {x: 262, y: 262, z: 262}
+      IconPosition: {x: -125, y: -118, z: 0}
+      IconRotation: {x: 0, y: 5.000002, z: 312.66156}
+      IconScale: {x: 93.3, y: 93.3, z: 93.3}
+  - Id: 35
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5264175088525312
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 3500
+    Prefab: {fileID: 3477980217740173655, guid: 91ef001bbd8fb4c44b59260c65db0185, type: 3}
+    Category: 2
+    Offsets:
+      Offset: {x: -0.077, y: -1.101, z: 0.292}
+      Rotation: {x: 358.89005, y: 254.4491, z: 0.30884066}
+      IdleOffset: {x: 1.951, y: -0.072, z: -1.79}
+      IdleRotation: {x: 66.62862, y: 3.7075288, z: 49.90657}
+      PreviewPosition: {x: -295, y: -362, z: -108}
+      PreviewRotation: {x: 4.7326818, y: 10.258704, z: 315.0789}
+      PreviewScale: {x: 232.4, y: 232.4, z: 232.4}
+      IconPosition: {x: -116, y: -119, z: -1}
+      IconRotation: {x: 0, y: 5.0000014, z: 310.7912}
+      IconScale: {x: 82.5, y: 82.5, z: 82.5}
+  - Id: 36
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5244343894925312
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 3700
+    Prefab: {fileID: 5959673498301858206, guid: f6abe30069cd1eb40ac39e77e68895da, type: 3}
+    Category: 3
+    Offsets:
+      Offset: {x: -0.032, y: -0.496, z: -0.017}
+      Rotation: {x: 356.83823, y: 275.36545, z: 358.8572}
+      IdleOffset: {x: 0.667, y: -0.06, z: -1.363}
+      IdleRotation: {x: 64.72316, y: 359.19974, z: 42.21974}
+      PreviewPosition: {x: -340, y: -327, z: -96}
+      PreviewRotation: {x: 4.732681, y: 10.258705, z: 312.89185}
+      PreviewScale: {x: 303.1, y: 303.1, z: 303.1}
+      IconPosition: {x: -125, y: -118, z: 0}
+      IconRotation: {x: 0, y: 5.0000014, z: 310.80002}
+      IconScale: {x: 109.6, y: 109.6, z: 109.6}
+  - Id: 37
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 5285307099373568
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 77000
+    Prefab: {fileID: -2273243950439901389, guid: 11c162f88772182479a1bef334fe18ec, type: 3}
+    Category: 3
+    Offsets:
+      Offset: {x: -0.034, y: -0.187, z: -0.028}
+      Rotation: {x: 351.539, y: 278.9566, z: 358.67154}
+      IdleOffset: {x: 0.667, y: -0.06, z: -1.363}
+      IdleRotation: {x: 64.72316, y: 359.19974, z: 42.21974}
+      PreviewPosition: {x: -327, y: -314, z: -97}
+      PreviewRotation: {x: 4.732683, y: 10.258706, z: 313.63177}
+      PreviewScale: {x: 392.7, y: 392.7, z: 392.7}
+      IconPosition: {x: -125, y: -118, z: 0}
+      IconRotation: {x: 0, y: 5.0000014, z: 312.5661}
+      IconScale: {x: 144.9, y: 144.9, z: 144.9}
+  - Id: 38
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 41867666575642624
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 700
+    Prefab: {fileID: -5104755735370594840, guid: 8c1971645b70bdc4c8cd499557043f3e, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: -0.035, y: -0.023, z: -0.019}
+      Rotation: {x: 0.7683564, y: 5.1091323, z: 351.4704}
+      IdleOffset: {x: -1.037, y: 0.327, z: 0.092}
+      IdleRotation: {x: 36.3616, y: 2.529755, z: 194.651}
+      PreviewPosition: {x: -149, y: -78, z: -31}
+      PreviewRotation: {x: 37.260403, y: 119.99077, z: 13.341443}
+      PreviewScale: {x: 1099, y: 1099, z: 1099}
+      IconPosition: {x: -55, y: -31, z: -22}
+      IconRotation: {x: 39.86834, y: 99.62343, z: 4.136265}
+      IconScale: {x: 393.89996, y: 393.89996, z: 393.89996}
+  - Id: 39
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 50713309477916672
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 3000
+    Prefab: {fileID: 2791100910768614688, guid: 44a5a5078dc28734d8715fa49b2c1d22, type: 3}
+    Category: 2
+    Offsets:
+      Offset: {x: -0.035, y: -0.023, z: -0.019}
+      Rotation: {x: 0.7683564, y: 5.1091323, z: 351.4704}
+      IdleOffset: {x: -0.19003937, y: 0.40917742, z: -0.82457626}
+      IdleRotation: {x: 346.807, y: 45.000004, z: 79.64181}
+      PreviewPosition: {x: -107.99753, y: -115.999886, z: -73.00049}
+      PreviewRotation: {x: 322.7395, y: 321.82153, z: 329.99463}
+      PreviewScale: {x: 654.3, y: 654.3, z: 654.3}
+      IconPosition: {x: -43, y: -34, z: -24}
+      IconRotation: {x: 48.65868, y: 100.582436, z: 4.807599}
+      IconScale: {x: 230.00002, y: 230.00002, z: 230.00002}
+  - Id: 40
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 50716136493338624
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 1500
+    Prefab: {fileID: 6587486167069214186, guid: 2a842aa0952b81b47a59c93e0666936e, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: -0.035, y: -0.023, z: -0.019}
+      Rotation: {x: 0.7683564, y: 5.1091323, z: 351.4704}
+      IdleOffset: {x: -1.043, y: 0.381, z: 0.136}
+      IdleRotation: {x: 28.96079, y: 8.335419, z: 203.2306}
+      PreviewPosition: {x: -130, y: -71, z: -45}
+      PreviewRotation: {x: 45.084064, y: 115.61352, z: 12.540224}
+      PreviewScale: {x: 1085.7, y: 1085.7, z: 1085.7}
+      IconPosition: {x: -48.022903, y: -29.646606, z: -18.276855}
+      IconRotation: {x: 41.104317, y: 117.2867, z: 16.064783}
+      IconScale: {x: 395, y: 395, z: 395}
+  - Id: 41
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 50752751362166784
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 3200
+    Prefab: {fileID: 5802114119872473425, guid: 6950bccd9c52e3b49a099f7075441746, type: 3}
+    Category: 2
+    Offsets:
+      Offset: {x: -0.035, y: -0.023, z: -0.019}
+      Rotation: {x: 0.7683564, y: 5.1091323, z: 351.4704}
+      IdleOffset: {x: -0.565, y: 0.401, z: -0.601}
+      IdleRotation: {x: 345.92325, y: 40.52492, z: 258.64746}
+      PreviewPosition: {x: -185, y: -165, z: -205}
+      PreviewRotation: {x: 50.345062, y: 142.92804, z: 13.900029}
+      PreviewScale: {x: 415.90002, y: 415.90002, z: 415.90002}
+      IconPosition: {x: -67.56697, y: -55.743042, z: -74.18555}
+      IconRotation: {x: 48.638462, y: 117.556725, z: 359.41217}
+      IconScale: {x: 164.1, y: 164.1, z: 164.1}
+  - Id: 42
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 50756136073220096
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 4100
+    Prefab: {fileID: -3238185432063857510, guid: 6407f2e2f57b6f74dac65f25936d0f54, type: 3}
+    Category: 3
+    Offsets:
+      Offset: {x: -0.035, y: -0.023, z: -0.019}
+      Rotation: {x: 0.7683564, y: 5.1091323, z: 351.4704}
+      IdleOffset: {x: -0.565, y: 0.401, z: -0.601}
+      IdleRotation: {x: 345.92325, y: 40.52492, z: 258.64746}
+      PreviewPosition: {x: -187, y: -184, z: -247}
+      PreviewRotation: {x: 43.193394, y: 139.64651, z: 24.475332}
+      PreviewScale: {x: 640.9, y: 640.9, z: 640.9}
+      IconPosition: {x: -61, y: -65, z: -78}
+      IconRotation: {x: 50.35712, y: 117.52909, z: 359.39117}
+      IconScale: {x: 228.39, y: 228.39, z: 228.39}
+  - Id: 43
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 50756136073220096
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 2100
+    Prefab: {fileID: 7906022610046212803, guid: ccf4dc1bb883b074cbd0c123b87997eb, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: -0.035, y: -0.023, z: -0.019}
+      Rotation: {x: 0.7683564, y: 5.1091323, z: 351.4704}
+      IdleOffset: {x: -0.565, y: 0.401, z: -0.601}
+      IdleRotation: {x: 345.92325, y: 40.52492, z: 258.64746}
+      PreviewPosition: {x: -135.92831, y: -108.20734, z: -267.89648}
+      PreviewRotation: {x: 42.89314, y: 123.389435, z: 12.939}
+      PreviewScale: {x: 404.5, y: 404.5, z: 404.5}
+      IconPosition: {x: -59.464798, y: -59.492554, z: -69.02051}
+      IconRotation: {x: 54.135033, y: 114.96671, z: 336.42755}
+      IconScale: {x: 208, y: 208, z: 208}
+  - Id: 44
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 50778759461130240
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 6600
+    Prefab: {fileID: 3327749342857870677, guid: 14fea32aff6c9a24b91b9b7dc0a9b7ed, type: 3}
+    Category: 3
+    Offsets:
+      Offset: {x: -0.035, y: -0.023, z: -0.019}
+      Rotation: {x: 0.7683564, y: 5.1091323, z: 351.4704}
+      IdleOffset: {x: 0.58717495, y: 0.25325167, z: -1.3320982}
+      IdleRotation: {x: 344.79825, y: 33.978546, z: 84.215225}
+      PreviewPosition: {x: -265, y: -256, z: -236}
+      PreviewRotation: {x: 46.48743, y: 124.59006, z: 13.783802}
+      PreviewScale: {x: 552.8, y: 552.8, z: 552.8}
+      IconPosition: {x: -99, y: -95, z: -120}
+      IconRotation: {x: 49.77277, y: 115.21699, z: 358.07312}
+      IconScale: {x: 217.62, y: 217.62, z: 217.62}
+  - Id: 45
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 50781747969839104
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 1000
+    Prefab: {fileID: -5966325836210758177, guid: 45f3ae94ce40cb14ab79a959bb259453, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: -0.035, y: -0.023, z: -0.019}
+      Rotation: {x: 0.7683564, y: 5.1091323, z: 351.4704}
+      IdleOffset: {x: 0.086, y: -0.301, z: -0.189}
+      IdleRotation: {x: 22.10818, y: 345.77725, z: 6.4012}
+      PreviewPosition: {x: -240, y: -222, z: -241}
+      PreviewRotation: {x: 45.74296, y: 124.32846, z: 13.5952635}
+      PreviewScale: {x: 805.1, y: 805.1, z: 805.1}
+      IconPosition: {x: -84, y: -81, z: -128}
+      IconRotation: {x: 49.772778, y: 115.21699, z: 358.07312}
+      IconScale: {x: 294.7, y: 294.7, z: 294.7}
+  - Id: 46
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 50794715730202624
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 900
+    Prefab: {fileID: 3049670209926578512, guid: d016859fe2fc03b42b8a571177881ca6, type: 3}
+    Category: 0
+    Offsets:
+      Offset: {x: -0.035, y: -0.023, z: -0.019}
+      Rotation: {x: 0.7683564, y: 5.1091323, z: 351.4704}
+      IdleOffset: {x: -0.018, y: 0.177, z: -0.015}
+      IdleRotation: {x: 22.108181, y: 345.77725, z: 6.4011993}
+      PreviewPosition: {x: -153, y: -139, z: -265}
+      PreviewRotation: {x: 45.74296, y: 124.32846, z: 13.595263}
+      PreviewScale: {x: 1429.2, y: 1429.2, z: 1429.2}
+      IconPosition: {x: -51, y: -50, z: -145}
+      IconRotation: {x: 49.77279, y: 115.21699, z: 358.0731}
+      IconScale: {x: 543.53, y: 543.53, z: 543.53}
+  - Id: 47
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 50796578710016000
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 1900
+    Prefab: {fileID: -3767393408239927866, guid: 96f10a5d04f52a6408ff466bfac6c11a, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: -0.032, y: -0.006, z: -0.019}
+      Rotation: {x: 351.44006, y: 271.75928, z: 359.73798}
+      IdleOffset: {x: -0.003, y: 0.06, z: -0.046}
+      IdleRotation: {x: 4.046386, y: 252.29825, z: 338.8902}
+      PreviewPosition: {x: -223, y: -206, z: -245}
+      PreviewRotation: {x: 29.796642, y: 163.75687, z: 38.586773}
+      PreviewScale: {x: 1081, y: 1081, z: 1081}
+      IconPosition: {x: -86.51265, y: -76.76453, z: -140.15771}
+      IconRotation: {x: 33.236828, y: 167.64027, z: 38.708096}
+      IconScale: {x: 543.53, y: 543.53, z: 543.53}
+  - Id: 48
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 50800785349464064
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 3000
+    Prefab: {fileID: -1993367198024522613, guid: e1bfee1c965972648976f2d297a448fa, type: 3}
+    Category: 2
+    Offsets:
+      Offset: {x: -0.031923257, y: -0.0060898475, z: -0.019045703}
+      Rotation: {x: 1.4613607, y: 170.24605, z: 8.439299}
+      IdleOffset: {x: 0.068, y: -0.324, z: -0.179}
+      IdleRotation: {x: 339.9054, y: 173.52881, z: 352.2581}
+      PreviewPosition: {x: -259, y: -241, z: -235}
+      PreviewRotation: {x: 47.23892, y: 109.00087, z: 2.4462745}
+      PreviewScale: {x: 616, y: 616, z: 616}
+      IconPosition: {x: -95, y: -85, z: -137}
+      IconRotation: {x: 50.038147, y: 128.60738, z: 12.505549}
+      IconScale: {x: 263.2, y: 263.2, z: 263.2}
+  - Id: 49
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 50803585663946752
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 3100
+    Prefab: {fileID: -6264454709903604504, guid: 44aaf70bb6a6df649a270d7f381a533c, type: 3}
+    Category: 2
+    Offsets:
+      Offset: {x: -0.031923257, y: -0.0060898475, z: -0.019045703}
+      Rotation: {x: 1.4613607, y: 170.24605, z: 8.439299}
+      IdleOffset: {x: -0.93195885, y: 0.5346689, z: 0.36116654}
+      IdleRotation: {x: 41.114967, y: 356.42972, z: 180.7298}
+      PreviewPosition: {x: -200, y: -196, z: -123}
+      PreviewRotation: {x: 22.909346, y: 172.70702, z: 42.573456}
+      PreviewScale: {x: 958.8, y: 958.8, z: 958.8}
+      IconPosition: {x: -81, y: -76, z: -142}
+      IconRotation: {x: 22.073217, y: 182.23767, z: 45.010284}
+      IconScale: {x: 358.47, y: 358.47, z: 358.47}
+  - Id: 50
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 50806215911985152
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 6789
+    Prefab: {fileID: 458394022057418891, guid: 9d0877dba58a73b45960da312e675c93, type: 3}
+    Category: 3
+    Offsets:
+      Offset: {x: -0.031923257, y: -0.0060898475, z: -0.019045703}
+      Rotation: {x: 1.4613607, y: 170.24605, z: 8.439299}
+      IdleOffset: {x: -0.93195885, y: 0.5346689, z: 0.36116654}
+      IdleRotation: {x: 41.114967, y: 356.42972, z: 180.7298}
+      PreviewPosition: {x: -160.99991, y: -160.00002, z: -165}
+      PreviewRotation: {x: 333.66022, y: 331.98303, z: 320.09558}
+      PreviewScale: {x: 1101.2, y: 1101.2, z: 1101.2}
+      IconPosition: {x: -60.13533, y: -58.44226, z: -157.80176}
+      IconRotation: {x: 40.501373, y: 160.1338, z: 37.315964}
+      IconScale: {x: 408.53, y: 408.53, z: 408.53}
+  - Id: 51
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 50808754405429248
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 1500
+    Prefab: {fileID: 1548201485852842654, guid: 4963b7f37781f444aa2b076def5dee8d, type: 3}
+    Category: 1
+    Offsets:
+      Offset: {x: -0.031923257, y: -0.0060898475, z: -0.019045703}
+      Rotation: {x: 1.4613607, y: 170.24605, z: 8.439299}
+      IdleOffset: {x: -0.93195885, y: 0.5346689, z: 0.36116654}
+      IdleRotation: {x: 41.114967, y: 356.42972, z: 180.7298}
+      PreviewPosition: {x: -232, y: -212, z: -174}
+      PreviewRotation: {x: 333.6602, y: 331.98303, z: 320.09558}
+      PreviewScale: {x: 922.3, y: 922.3, z: 922.3}
+      IconPosition: {x: -85, y: -79, z: -149}
+      IconRotation: {x: 36.57305, y: 156.46393, z: 35.02772}
+      IconScale: {x: 348.3, y: 348.3, z: 348.3}
+  - Id: 52
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:d184ab879724f2149b22ab3842e02228
+      m_TableEntryReference:
+        m_KeyId: 50811774027485184
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Price: 2900
+    Prefab: {fileID: -56424384527712972, guid: a80f1b96c1294ab45997534d8c390c40, type: 3}
+    Category: 2
+    Offsets:
+      Offset: {x: -0.043, y: -0.004, z: 0.02}
+      Rotation: {x: 0.12496019, y: 0.82890093, z: 351.43692}
+      IdleOffset: {x: -0.928, y: 0.473, z: 0.308}
+      IdleRotation: {x: 41.11497, y: 356.42972, z: 180.7298}
+      PreviewPosition: {x: -131.74588, y: -125.20823, z: -189.00293}
+      PreviewRotation: {x: 38.387325, y: 131.34428, z: 28.70941}
+      PreviewScale: {x: 744, y: 744, z: 744}
+      IconPosition: {x: -46, y: -44, z: -160}
+      IconRotation: {x: 36.57305, y: 156.46393, z: 35.027718}
+      IconScale: {x: 302.22, y: 302.22, z: 302.22}
+  _skinsList:
+  - Id: 0
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 55068004352
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -9159933073238686700, guid: 2675bf32b57d62d429d574ccdf68450e, type: 3}
+    Category: 0
+  - Id: 2
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 3259705004032
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -8302430952519878323, guid: 173736a5b58c7f44289f7a2f76a54d68, type: 3}
+    Category: 0
+  - Id: 3
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 315282624512
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 4017672041825915828, guid: c6f304de0ab5e3148a2fb8efe3a74d3f, type: 3}
+    Category: 0
+  - Id: 4
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 146213870555136
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -8114904594678326785, guid: 1dca09ee33e1d71448f6b8c3ef2c76fc, type: 3}
+    Category: 0
+  - Id: 5
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 146861504647168
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -4020731759285459316, guid: 6b658feb3a968284abfd6a9b1acd6239, type: 3}
+    Category: 0
+  - Id: 6
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 147294520397824
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 3176867335430615500, guid: c3dee8ff9700b21449d250d82d19e130, type: 3}
+    Category: 0
+  - Id: 7
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 147852576739328
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 1889763107618439838, guid: f861eaf3b63e78f45b0d049fca79bae3, type: 3}
+    Category: 0
+  - Id: 8
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 153617102327808
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 4828033989162380492, guid: cc99068e22f2243439edaa2dcf8bac59, type: 3}
+    Category: 0
+  - Id: 9
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 148678317756416
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 7529491463985110477, guid: da831913fefaf9f4992b289c8403ee9c, type: 3}
+    Category: 0
+  - Id: 10
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 148936129040384
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -9001865781263019467, guid: dad05c34125d3ed4da79d5ab6dde1ecb, type: 3}
+    Category: 0
+  - Id: 11
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 149429291110400
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -6188014457906723170, guid: 3f6e247ce681a56459df1cfb4133d58c, type: 3}
+    Category: 0
+  - Id: 12
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 149837178785792
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 1908074657083407621, guid: 8a9d61d0d5d43e445a769668575780b7, type: 3}
+    Category: 0
+  - Id: 13
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 150159909507072
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 4180236706613335278, guid: a524ac21888812f44b27ce8d61ac2e58, type: 3}
+    Category: 0
+  - Id: 14
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 175318997454848
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -1801437094242526787, guid: 7e3ed390d74bc784083ee4837e70d9f1, type: 3}
+    Category: 0
+  - Id: 15
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 176049443885056
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -7469151941275607511, guid: 8025e44cc4d32c9409e302cc662fd471, type: 3}
+    Category: 0
+  - Id: 16
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 176167849086976
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -7584495489610731051, guid: 304f733e9044dcf4a9801bd293cd9d93, type: 3}
+    Category: 0
+  - Id: 17
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 176805769170944
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 31379856758134964, guid: 6fa14c22782f12d4582f587516ee164d, type: 3}
+    Category: 0
+  - Id: 18
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 828666494898176
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -5757196810992682659, guid: 7dee787d2645a2f4997e1ed6fd7467d5, type: 3}
+    Category: 0
+  - Id: 19
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 502515369037824
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -6143150836566291710, guid: 89435e44f3f822a44bf73bbff09396a5, type: 3}
+    Category: 1
+  - Id: 20
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 177917540749312
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 581617342506055390, guid: e1fbc9c7501ead84393db2b438171525, type: 3}
+    Category: 1
+  - Id: 21
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 505975615311872
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -5425641444668281553, guid: 9f61970abc20a2240b4efbc3c5c787fd, type: 3}
+    Category: 1
+  - Id: 22
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 506609802465280
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -1684455122148280896, guid: 99ee18e96e4f9034f93051a48b845b84, type: 3}
+    Category: 1
+  - Id: 23
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 507836971929600
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 7965040507511784003, guid: 9888b24cab0a29e4181d27b583e4b259, type: 3}
+    Category: 1
+  - Id: 24
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 508500196249600
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 1924068369886463609, guid: 60501177cd1795f40b999f6cde0b7280, type: 3}
+    Category: 1
+  - Id: 25
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 509162791424000
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -6059995075288581069, guid: 67528b85d728a4c4c9a50010e5427a30, type: 3}
+    Category: 1
+  - Id: 26
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 511245233999872
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 8587101034162421143, guid: 0f999e50322052d49b5b9de96a2baacd, type: 3}
+    Category: 1
+  - Id: 27
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 511471214710784
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -3201757226422752736, guid: fe30229f0b65d8842ab18c52bfba5cee, type: 3}
+    Category: 1
+  - Id: 28
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 512786644914176
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 1316556136659464265, guid: 3db1be8b3cda7ab4990a0f1d8bb00383, type: 3}
+    Category: 2
+  - Id: 29
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 515102945103872
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -8864131907277032054, guid: 6a8fac59182ff6643ac262a2e81c002a, type: 3}
+    Category: 2
+  - Id: 30
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 515675106889728
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -2612013179036466959, guid: aec34fba1d0c7de4f9a03dff4f4e3f4d, type: 3}
+    Category: 2
+  - Id: 31
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 2960151238725632
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -4963133103640980959, guid: 4a4eba0979a636445b1ab723b5e56211, type: 3}
+    Category: 2
+  - Id: 32
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 524519602180096
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 4955366796166933125, guid: d1feffa5623ff094684271bb4db22118, type: 3}
+    Category: 2
+  - Id: 33
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 518899733942272
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -5214758215053759800, guid: ddcda3d3779e87e41818bd8ede7a104c, type: 3}
+    Category: 3
+  - Id: 34
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 521641596604416
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 2826548367954493821, guid: 3fe2c3da7e5b368409f8ef53c9435c4f, type: 3}
+    Category: 3
+  - Id: 35
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 522149128359936
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 8893050462833730584, guid: baf310426e2034645ba56f70158ff455, type: 3}
+    Category: 3
+  - Id: 36
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 522467555725312
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 4678722708180626787, guid: 2a2c51d3a218d8c4bbef6f53b8f02ba5, type: 3}
+    Category: 3
+  - Id: 37
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 523189617741824
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: 606014095758683016, guid: 7294c94832e6f1e4eb111d3df25bf938, type: 3}
+    Category: 3
+  - Id: 1
+    Name:
+      m_TableReference:
+        m_TableCollectionName: GUID:af807bfc1747e9b459506e537b229f16
+      m_TableEntryReference:
+        m_KeyId: 3168113987584
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Prefab: {fileID: -460792415530991577, guid: 97e812e0bc020b74a8cb5415cbcb5043, type: 3}
+    Category: 3
+  _categoryColors:
+  - Category: 0
+    Color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 0.69803923}
+  - Category: 1
+    Color: {r: 0.2365432, g: 0.5478371, b: 0.9150943, a: 0.69803923}
+  - Category: 2
+    Color: {r: 0.14503376, g: 0.7924528, b: 0.17286815, a: 0.69803923}
+  - Category: 3
+    Color: {r: 0.754717, g: 0.23780702, b: 0.23780702, a: 0.69803923}
+  _skillsShopTypeText:
+  - ShopType: 1
+    Text:
+      m_TableReference:
+        m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+      m_TableEntryReference:
+        m_KeyId: 49371020469014528
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  BoxesSettings:
+  - {fileID: 11400000, guid: c294df848b035224f89e6e21ed8f6d9b, type: 2}
+  - {fileID: 11400000, guid: b8a8825bf8ddff54fa39515a53082b2d, type: 2}
+  - {fileID: 11400000, guid: dc0fa2879949ba04280de1befeeb1fb8, type: 2}
+  - {fileID: 11400000, guid: a790636447e2d0b4d8cb52772f6689eb, type: 2}
+  RewardedCooldown: 120
+  InterstitialInterval: 120
+  InterstitialDelayAfterRewarded: 120
+  InApps:
+  - Id: 0
+    Type: 0
+  - Id: 1
+    Type: 0
+  - Id: 2
+    Type: 0
+  - Id: 3
+    Type: 0
+  - Id: 4
+    Type: 0
+  - Id: 5
+    Type: 0
+  - Id: 6
+    Type: 0
+  - Id: 7
+    Type: 0
+  - Id: 8
+    Type: 0
+  - Id: 9
+    Type: 0
+  DiscardMaterial: {fileID: 2100000, guid: fd67d3abffa1453418bf782db30aab42, type: 2}
+  FortuneWheelSettings: {fileID: 11400000, guid: ce080710d5a72fa4aa7f6a0fbbb2ed10, type: 2}
+  DailyBonus: {fileID: 11400000, guid: e5e57a7146775d94d8ba0cf1eecc987d, type: 2}
+  PlaytimeRewards: {fileID: 11400000, guid: 6d7f0931af99a484f88f4017f6136d7a, type: 2}
+  TimedReward: {fileID: 11400000, guid: 1137843ea67070d44914cad4940da295, type: 2}
+  references:
+    version: 2
+    RefIds: []

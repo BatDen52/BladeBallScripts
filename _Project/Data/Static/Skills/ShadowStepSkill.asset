@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6e6f11082da914492fdc22699a6204, type: 3}
+  m_Name: ShadowStepSkill
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 7
+  <Price>k__BackingField: 1600
+  <Icon>k__BackingField: {fileID: 21300000, guid: 00ece49b1ef989b428b268f2cda15e1c, type: 3}
+  <Title>k__BackingField: ShadowStep
+  <CooldownTime>k__BackingField: 25
+  <ActiveTime>k__BackingField: 3
+  <Name>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+    m_TableEntryReference:
+      m_KeyId: 21348527308267520
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <Description>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+    m_TableEntryReference:
+      m_KeyId: 21348578709463040
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <IsPassive>k__BackingField: 0
+  ActivateSound:
+    AudioClips: []
+    MinPitch: 1
+    MaxPitch: 1
+  DeactivateSound:
+    AudioClips: []
+    MinPitch: 1
+    MaxPitch: 1
+  <AuraPrefab>k__BackingField: {fileID: 8617648346276875722, guid: 974511693c7ece148ba3f962c63c9ee4, type: 3}
+  <SpeedMultiplier>k__BackingField: 3
+  references:
+    version: 2
+    RefIds: []

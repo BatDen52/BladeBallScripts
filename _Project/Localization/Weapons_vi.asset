@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Weapons_vi
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: vi
+  m_SharedData: {fileID: 11400000, guid: d184ab879724f2149b22ab3842e02228, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 65574735872
+    m_Localized: Katana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177172582400
+    m_Localized: "C\xE2y r\xECu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14990464454656
+    m_Localized: "G\u1EADy b\xF3ng ch\xE0y"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15236791734272
+    m_Localized: "T\u1EF1 do ng\xF4n lu\u1EADn"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15522386087936
+    m_Localized: "M\xE1y c\u01B0a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15931079069696
+    m_Localized: "Th\u1ECBt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16116425363456
+    m_Localized: "\u1ED0ng c\u1EDD l\xEA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16328879443968
+    m_Localized: "Th\u1EE3 l\u1EB7n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16513923747840
+    m_Localized: Dao
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16730748293120
+    m_Localized: "m\xF3ng vu\u1ED1t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1149245632536576
+    m_Localized: "X\u01B0\u01A1ng l\u1EA1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1149255715643392
+    m_Localized: "dao r\u1EF1a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1219231860383744
+    m_Localized: "R\xECu c\u1EE7a y\xEAu tinh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1225639951589376
+    m_Localized: "Ki\u1EBFm \u0111\xF4i"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1226466573410304
+    m_Localized: "Tr\u01B0\u1EE3ng C\u1ED5"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1227275839201280
+    m_Localized: "Ki\u1EBFm \xE1nh s\xE1ng \u0111\u1ECF"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1227580442140672
+    m_Localized: "C\xE2y \u0111inh ba"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5178314510557184
+    m_Localized: "C\xE1i qu\u1EA1t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5244343894925312
+    m_Localized: "Thanh ki\u1EBFm ho\xE0ng gia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5244922000039936
+    m_Localized: "B\xFAa th\xE1nh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5246248327045120
+    m_Localized: "Cu\u1ED1c chim"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5261069432905728
+    m_Localized: "L\u01B0\u1EE1i ki\u1EBFm y\xEAu tinh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5262639893569536
+    m_Localized: "c\xE1i ch\xF9y"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5264175088525312
+    m_Localized: "l\u01B0\u1EE1i h\xE1i"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5266855412359168
+    m_Localized: "B\xEA t\xF4ng"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5268425101271040
+    m_Localized: Excalibur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5269534645673984
+    m_Localized: "R\xECu Durin"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5271403413626880
+    m_Localized: "L\u01B0\u1EE1i chia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5272607917072384
+    m_Localized: "m\xE1i ch\xE8o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5273647668256768
+    m_Localized: "Cu\u1ED3ng lo\u1EA1n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5274653193920512
+    m_Localized: Chia ra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5275721743196160
+    m_Localized: "C\xE1i m\xF3c"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5276958056243200
+    m_Localized: "v\u1EC9 \u0111\u1EADp ru\u1ED3i"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5279958959120384
+    m_Localized: "C\xE2u l\u1EA1c b\u1ED9 g\xF4n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5281392077299712
+    m_Localized: "G\u1EADy hockey"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5282815317893120
+    m_Localized: "N\u1EEDa \u0111\u1EDDi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5284471401078784
+    m_Localized: "c\xE2y l\u0103n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5285307099373568
+    m_Localized: "L\u01B0\u1EE1i g\u1ED7"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

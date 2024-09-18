@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1967c8defc00b6d4bbce4fe102967b88, type: 3}
+  m_Name: QuadJumpSkill
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 4
+  <Price>k__BackingField: 1000
+  <Icon>k__BackingField: {fileID: 21300000, guid: cbcbd00ad2cd7fe44b2d08eca6d397ee, type: 3}
+  <Title>k__BackingField: Quad Jump
+  <CooldownTime>k__BackingField: 0
+  <ActiveTime>k__BackingField: 0
+  <Name>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+    m_TableEntryReference:
+      m_KeyId: 18565489260224512
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <Description>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+    m_TableEntryReference:
+      m_KeyId: 18568176517242880
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <IsPassive>k__BackingField: 1
+  <ActivateSound>k__BackingField:
+    AudioClips: []
+    MinPitch: 1
+    MaxPitch: 1
+  <DeactivateSound>k__BackingField:
+    AudioClips: []
+    MinPitch: 1
+    MaxPitch: 1
+  <MaxJumpsCount>k__BackingField: 4
+  references:
+    version: 2
+    RefIds: []

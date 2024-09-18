@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef91be07f49d974db5cd1f87c549d38, type: 3}
+  m_Name: SkillDash
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 0
+  <Price>k__BackingField: 0
+  <Icon>k__BackingField: {fileID: 21300000, guid: 6d289708973837f4782cab5003fe7291, type: 3}
+  <Title>k__BackingField: Dash
+  <CooldownTime>k__BackingField: 8
+  <ActiveTime>k__BackingField: 0.4
+  <Name>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+    m_TableEntryReference:
+      m_KeyId: 12721164154507264
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <Description>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+    m_TableEntryReference:
+      m_KeyId: 12721285059514368
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <IsPassive>k__BackingField: 0
+  ActivateSound:
+    AudioClips:
+    - {fileID: 8300000, guid: 73109d7a1b997414d83b518678b32fa0, type: 3}
+    MinPitch: 1
+    MaxPitch: 1
+  DeactivateSound:
+    AudioClips: []
+    MinPitch: 1
+    MaxPitch: 1
+  <Force>k__BackingField: 60
+  references:
+    version: 2
+    RefIds: []

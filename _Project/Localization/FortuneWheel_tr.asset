@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: FortuneWheel_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 7b4a9415ed84638408f2c2143da9a825, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 664644852174848
+    m_Localized: "\xC7ark\u0131felek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275045748736
+    m_Localized: Madeni para x2 ({0} min.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462338199552
+    m_Localized: "B\u0131\xE7ak {0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525865127936
+    m_Localized: Kristaller {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 578226819072
+    m_Localized: Madeni Paralar {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 617019936768
+    m_Localized: Yetenek {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 699949715456
+    m_Localized: "Anl\u0131k d\xF6n\xFC\u015F ({0} dak.)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2527143727104
+    m_Localized: "\xC7ark\u0131felek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 619123604262912
+    m_Localized: "\xDCcretsiz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 620327369510912
+    m_Localized: Spin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 707235143553024
+    m_Localized: "Bonus d\xF6n\xFC\u015F\xFC ile..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 734551022309376
+    m_Localized: "\xC7ark\u0131fele\u011Fi a\xE7\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881383723569152
+    m_Localized: Kapat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6030268289716224
+    m_Localized: "\xDCcretsiz \xC7evirme"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

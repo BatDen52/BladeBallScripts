@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7e8679e62b265a428ec4a6078a16847, type: 3}
+  m_Name: WindCloakSkill
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 10
+  <Price>k__BackingField: 2000
+  <Icon>k__BackingField: {fileID: 21300000, guid: b8e63d85c776500419bd26f60fbe07b0, type: 3}
+  <Title>k__BackingField: Wind Cloak
+  <CooldownTime>k__BackingField: 30
+  <ActiveTime>k__BackingField: 10
+  <ActivationsCount>k__BackingField: 1
+  <Name>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+    m_TableEntryReference:
+      m_KeyId: 25443246560763904
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <Description>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+    m_TableEntryReference:
+      m_KeyId: 25444081445363712
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <IsPassive>k__BackingField: 0
+  ActivateSound:
+    AudioClips: []
+    MinPitch: 1
+    MaxPitch: 1
+  DeactivateSound:
+    AudioClips: []
+    MinPitch: 1
+    MaxPitch: 1
+  SpeedMultiplier: 2
+  JumpFactor: 2
+  CloakEffect: {fileID: 100000, guid: 4ae294a93e6c5cd4898797e3d62fea08, type: 3}
+  references:
+    version: 2
+    RefIds: []

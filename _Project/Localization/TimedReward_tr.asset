@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: TimedReward_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 3d036511c54151e4b8cdf37670943f43, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 514251100160
+    m_Localized: "10 dakika boyunca rastgele bir yetenek veya reklamlar\u0131 izlemek
+      i\xE7in para birimi mi alacaks\u0131n\u0131z?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316327854080
+    m_Localized: 'Paralar: x{0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1548715168960512
+    m_Localized: "Vay! T\xFCm yeteneklere sahipsiniz! Harikas\u0131n!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

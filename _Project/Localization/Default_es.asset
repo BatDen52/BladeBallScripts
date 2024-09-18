@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Default_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 154ba0a05767c8e42be16e428b0a4ae6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 51339268096
+    m_Localized: Ajustes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721164154507264
+    m_Localized: Tirar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721285059514368
+    m_Localized: "Sacudida r\xE1pida en la direcci\xF3n del movimiento de tu personaje"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721511577096192
+    m_Localized: Invisibilidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721603516239872
+    m_Localized: "(in\xFAtil durante un enfrentamiento)\nHazte invisible durante
+      un tiempo para evitar ser el objetivo de un globo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721756444758016
+    m_Localized: Plataforma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721838221103104
+    m_Localized: Crea una plataforma desde el suelo para elevarte en el cielo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721942776713216
+    m_Localized: "S\xFAper Salto"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12722034527113216
+    m_Localized: "Salta r\xE1pidamente para llegar muy alto"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13191892083609600
+    m_Localized: "\rHabilidades"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13192028520124416
+    m_Localized: Pieles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13192236494688256
+    m_Localized: Capacidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13192372079759360
+    m_Localized: Bloque
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13193006581485568
+    m_Localized: Habilidades
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13195674314018816
+    m_Localized: Equipar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13403719660933120
+    m_Localized: Armas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14292037890150400
+    m_Localized: Punto Muerto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14953923086323712
+    m_Localized: "\xA1T\xFA Ganas!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14966315094577152
+    m_Localized: Tu Recompensa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14969002641002496
+    m_Localized: Triple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14988547170701312
+    m_Localized: No, Gracias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15784094848716800
+    m_Localized: "Cuando atravieses el portal, aparecer\xE1 una bola. Ten cuidado.
+      Para desviarla, pulsa el bot\xF3n de bloqueo antes de que te alcance.\n\nEntonces
+      realizar\xE1s un tajo con tu espada y la bola se curvar\xE1 en direcci\xF3n
+      a tu personaje y apuntar\xE1 a otro oponente.\n\nSi ese oponente muere, ganar\xE1s
+      5 monedas. El \xFAltimo que quede en pie gana y obtiene otras 10 monedas.\n\nPuedes
+      usar tu habilidad para tener una ligera ventaja sobre tus oponentes en la batalla.
+      Puedes desbloquear nuevas habilidades y armas ganando monedas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15783870113714176
+    m_Localized: "C\xF3mo jugar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17064232131432448
+    m_Localized: Pulse "Bloque"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16119750854643712
+    m_Localized: Has noqueado a un jugador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18555861562548224
+    m_Localized: Trueno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18559371159003136
+    m_Localized: "Teletransportarse en la direcci\xF3n en la que se mueve el personaje
+      con un breve tiempo de reutilizaci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18565489260224512
+    m_Localized: "Salto Cu\xE1druple"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18568176517242880
+    m_Localized: "(Pasivo) Haz 4 saltos en lugar de los 2 est\xE1ndar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20666456396992512
+    m_Localized: Equipado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21345343705702400
+    m_Localized: Congela la pelota durante 5 segundos, el objetivo de la pelota puede
+      descongelarla si la bloquea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21344877794025472
+    m_Localized: Congelar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21348527308267520
+    m_Localized: Paso Sombra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21348578709463040
+    m_Localized: "Mu\xE9vete muy r\xE1pido en cualquier direcci\xF3n, dejando sombras
+      detr\xE1s de ti.\\"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21350017754193920
+    m_Localized: "(No funciona durante el Punto Muerto)\nCrea un campo de fuerza
+      impenetrable a tu alrededor que desv\xEDa autom\xE1ticamente la pelota durante
+      su acci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21349928407130112
+    m_Localized: Campo de Fuerza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21797744256421888
+    m_Localized: Ocultar/Mostrar cursor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22118994827874304
+    m_Localized: Abierto para monedas({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22119625915437056
+    m_Localized: Abierto para cristales ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22119633460989952
+    m_Localized: Monedas ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22119639806971904
+    m_Localized: Cristales ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22484969568854016
+    m_Localized: Recursos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22485836741206016
+    m_Localized: 1000 Monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486064894566400
+    m_Localized: Comprar ($1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486310483648512
+    m_Localized: 3750 Monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486795634597888
+    m_Localized: 8000 Monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22487673250766848
+    m_Localized: 14500 Monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486421641093120
+    m_Localized: Comprar ($3)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486857055985664
+    m_Localized: Comprar ($6)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22487933821902848
+    m_Localized: Comprar ($10)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488221194641408
+    m_Localized: 24000 Monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488493446914048
+    m_Localized: 10 Cristales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488761949478912
+    m_Localized: 40 Cristales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488899333906432
+    m_Localized: 90 Cristales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489147334713344
+    m_Localized: 210 Cristales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489294886133760
+    m_Localized: 500 Cristales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488340119937024
+    m_Localized: Comprar ($15)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488643837878272
+    m_Localized: Comprar ($1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488844011036672
+    m_Localized: Comprar ($3)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489051759108096
+    m_Localized: Comprar ($6)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489228356083712
+    m_Localized: Comprar ($12)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489407641608192
+    m_Localized: Comprar ($24)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489630430453760
+    m_Localized: Comprar ($5)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489909456527360
+    m_Localized: Comprar ($9)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22490102113492992
+    m_Localized: Comprar ($3)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22490012263112704
+    m_Localized: Monedas 2X
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489742686806016
+    m_Localized: Segunda vida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489481922732032
+    m_Localized: Desactivar los anuncios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23256297134690304
+    m_Localized: 100 Monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24583852044259328
+    m_Localized: DeathBall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25370155086188544
+    m_Localized: "Arc\xF3n de armas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25371531514155008
+    m_Localized: Cofre de armas premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23258515447549952
+    m_Localized: Conseguir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25439909975154688
+    m_Localized: Parpadear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25440046545887232
+    m_Localized: "Mu\xE9vete instant\xE1neamente una distancia corta 3 veces seguidas
+      con un tiempo de reutilizaci\xF3n corto"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25443246560763904
+    m_Localized: Capa de viento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25444081445363712
+    m_Localized: Usa la capa de viento para aumentar tu velocidad y altura de salto
+      durante mucho tiempo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25664322047774720
+    m_Localized: "Duplicar un arma de un cofre devolver\xE1 el 60%."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28316084305125376
+    m_Localized: Intercambio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28318344418418688
+    m_Localized: "Despu\xE9s de un breve per\xEDodo de tiempo, intercambia lugares
+      con otro jugador"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25802871253569536
+    m_Localized: Sin propietario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49371020469014528
+    m_Localized: En la rueda de la fortuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49376157498396672
+    m_Localized: Pecho de personajes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49377602742308864
+    m_Localized: Cofre de personajes premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753390385352704
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50771336012812288
+    m_Localized: Duel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50782015679680512
+    m_Localized: Se desbloquea tras el tutorial y el primer combate en Deathmatch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53992605893988352
+    m_Localized: '{0} min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54042767903363072
+    m_Localized: 100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54420333854187520
+    m_Localized: 200
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61922140111179776
+    m_Localized: 30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61923977396686848
+    m_Localized: 150
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61924068706684928
+    m_Localized: 250
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54292736342167552
+    m_Localized: "Pr\xF3xima recompensa: {0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54419109713010688
+    m_Localized: Reclama tu recompensa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54399034131943424
+    m_Localized: Todas las recompensas de hoy han sido reclamadas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54288662972534784
+    m_Localized: x1 Giro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54000734178316288
+    m_Localized: Llevar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54001110227030016
+    m_Localized: "Recibi\xF3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54783590177640448
+    m_Localized: Abierto libre
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

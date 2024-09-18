@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92dfc81c01526754cbbb6c2b7cf82048, type: 3}
+  m_Name: TimedRewardSettings
+  m_EditorClassIdentifier: 
+  TimedSkillDuration: 600
+  TimedSkillFailReward: 50
+  FirstShowTime: 5
+  TimedIconInterval: 60
+  TimedIconDuration: 10
+  TimedFailIcon: {fileID: 21300000, guid: 5e12967e32cbbdd43a5c8304bc7ba5c7, type: 3}
+  GetCoinsLocale:
+    m_TableReference:
+      m_TableCollectionName: GUID:3d036511c54151e4b8cdf37670943f43
+    m_TableEntryReference:
+      m_KeyId: 1316327854080
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  NoSkillsLocale:
+    m_TableReference:
+      m_TableCollectionName: GUID:3d036511c54151e4b8cdf37670943f43
+    m_TableEntryReference:
+      m_KeyId: 1548715168960512
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

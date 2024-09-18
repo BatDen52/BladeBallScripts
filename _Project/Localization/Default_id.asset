@@ -1,0 +1,454 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Default_id
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: id
+  m_SharedData: {fileID: 11400000, guid: 154ba0a05767c8e42be16e428b0a4ae6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 51339268096
+    m_Localized: Pengaturan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721164154507264
+    m_Localized: Melompat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721285059514368
+    m_Localized: Dash cepat ke arah pergerakan karakter Anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721511577096192
+    m_Localized: tembus pandang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721603516239872
+    m_Localized: '(Tidak berlaku saat kebuntuan)
+
+      Menjadi tidak terlihat untuk
+      sementara waktu sehingga bola tidak dapat mengenai Anda'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721756444758016
+    m_Localized: Platform
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721838221103104
+    m_Localized: Buat Platform dari tanah untuk berdiri tinggi di langit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12721942776713216
+    m_Localized: Loncatan Super
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12722034527113216
+    m_Localized: Lompat dengan cepat untuk menjadi sangat tinggi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13191892083609600
+    m_Localized: Keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13192028520124416
+    m_Localized: Kulit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13192236494688256
+    m_Localized: Kemampuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13192372079759360
+    m_Localized: Memblokir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13193006581485568
+    m_Localized: Kemampuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13195674314018816
+    m_Localized: Melengkapi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13403719660933120
+    m_Localized: Senjata
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14292037890150400
+    m_Localized: Kebuntuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14953923086323712
+    m_Localized: Kamu menang!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14966315094577152
+    m_Localized: Hadiah Anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14969002641002496
+    m_Localized: Tiga kali lipat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14988547170701312
+    m_Localized: Tidak, terima kasih
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15783870113714176
+    m_Localized: Cara bermain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15784094848716800
+    m_Localized: 'Setelah Anda melewati portal, sebuah bola akan muncul. Hati-hati!
+      Ini pelacakan otomatis dan untuk membelokkannya, tekan tombol blok sebelum
+      bola mengenai Anda.
+
+
+
+      Anda kemudian akan melakukan tebasan dengan pedang
+      Anda dan bola akan melengkung ke arah karakter Anda dan menargetkan lawan lain.
+
+
+
+      Jika
+      lawannya mati, Anda akan mendapatkan 5 koin. Yang terakhir bertahan menang
+      dan mendapat 10 koin lagi.
+
+
+
+      Anda dapat menggunakan kemampuan Anda untuk
+      memberi Anda sedikit keunggulan atas lawan Anda dalam pertempuran. Anda dapat
+      membuka kemampuan dan senjata baru dengan mendapatkan koin.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16119750854643712
+    m_Localized: Anda mengalahkan seorang pemain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17064232131432448
+    m_Localized: Tekan "Blokir"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18555861562548224
+    m_Localized: Guntur Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18559371159003136
+    m_Localized: Teleportasi ke arah pergerakan karakter dengan cooldown singkat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18565489260224512
+    m_Localized: Lompat Segi Empat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18568176517242880
+    m_Localized: (Pasif) Dapatkan 4 lompatan, bukan 2 lompatan biasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20666456396992512
+    m_Localized: Lengkap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21344877794025472
+    m_Localized: Membekukan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21345343705702400
+    m_Localized: Bekukan bola selama 5 detik, target bola dapat mencairkan bola jika
+      diblok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21348527308267520
+    m_Localized: Langkah Bayangan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21348578709463040
+    m_Localized: Bergerak sangat cepat ke segala arah, meninggalkan bayangan di belakang
+      Anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21349928407130112
+    m_Localized: Medan gaya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21350017754193920
+    m_Localized: '(Tidak berfungsi selama Standoff)
+
+      Ciptakan medan gaya yang
+      tidak dapat ditembus di sekitar Anda yang secara otomatis membelokkan bola
+      selama aksinya'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21797744256421888
+    m_Localized: Sembunyikan/Tampilkan Kursor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24583852044259328
+    m_Localized: DeathBall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25370155086188544
+    m_Localized: Peti senjata
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25371531514155008
+    m_Localized: Peti senjata premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22118994827874304
+    m_Localized: Terbuka untuk koin ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22119625915437056
+    m_Localized: Terbuka untuk kristal ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22119633460989952
+    m_Localized: Koin ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22119639806971904
+    m_Localized: Kristal ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22484969568854016
+    m_Localized: Sumber daya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22485836741206016
+    m_Localized: 1000 Koin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486064894566400
+    m_Localized: Beli ($1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486310483648512
+    m_Localized: 3750 Koin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486421641093120
+    m_Localized: Beli ($3)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486795634597888
+    m_Localized: 8000 Koin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22486857055985664
+    m_Localized: Beli ($6)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22487673250766848
+    m_Localized: 14500 Koin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22487933821902848
+    m_Localized: Beli ($10)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488221194641408
+    m_Localized: 24000 Koin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488340119937024
+    m_Localized: Beli ($15)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488493446914048
+    m_Localized: 10 Kristal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488643837878272
+    m_Localized: Beli ($1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488761949478912
+    m_Localized: 40 Kristal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488844011036672
+    m_Localized: Beli ($3)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488899333906432
+    m_Localized: 90 Kristal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489051759108096
+    m_Localized: Beli ($6)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489147334713344
+    m_Localized: 210 Kristal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489228356083712
+    m_Localized: Beli ($12)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489294886133760
+    m_Localized: 500 Kristal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489407641608192
+    m_Localized: Beli ($24)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489481922732032
+    m_Localized: Nonaktifkan Iklan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489630430453760
+    m_Localized: Beli ($5)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489742686806016
+    m_Localized: Kehidupan kedua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489909456527360
+    m_Localized: Beli ($9)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22490012263112704
+    m_Localized: Koin 2X
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22490102113492992
+    m_Localized: Beli ($3)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23256297134690304
+    m_Localized: 100 Koin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23258515447549952
+    m_Localized: Mendapatkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25439909975154688
+    m_Localized: Berkedip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25440046545887232
+    m_Localized: Langsung berpindah jarak pendek sebanyak 3 kali berturut-turut dengan
+      cooldown singkat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25443246560763904
+    m_Localized: Jubah Angin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25444081445363712
+    m_Localized: Gunakan Wind Cloak untuk meningkatkan kecepatan dan ketinggian lompatan
+      Anda dalam waktu yang lama.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25664322047774720
+    m_Localized: Senjata duplikat dari peti akan memberikan 60% kembali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28316084305125376
+    m_Localized: Menukar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28318344418418688
+    m_Localized: Setelah penyelesaian yang sangat singkat, bertukar tempat dengan
+      pemain lain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25802871253569536
+    m_Localized: Tidak dimiliki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49371020469014528
+    m_Localized: Pada roda keberuntungan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49376157498396672
+    m_Localized: Dada Karakter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49377602742308864
+    m_Localized: Peti karakter premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753390385352704
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50771336012812288
+    m_Localized: Duel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50782015679680512
+    m_Localized: Membuka kunci setelah tutorial dan pertarungan pertama di Deathmatch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53992605893988352
+    m_Localized: '{0} min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54042767903363072
+    m_Localized: 100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54420333854187520
+    m_Localized: 200
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61922140111179776
+    m_Localized: 30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61923977396686848
+    m_Localized: 150
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61924068706684928
+    m_Localized: 250
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54292736342167552
+    m_Localized: 'Hadiah berikutnya: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54419109713010688
+    m_Localized: Klaim hadiah Anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54399034131943424
+    m_Localized: Semua hadiah untuk hari ini telah diklaim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54288662972534784
+    m_Localized: x1 Berputar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54000734178316288
+    m_Localized: Mengambil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54001110227030016
+    m_Localized: Diterima
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54783590177640448
+    m_Localized: Buka gratis
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

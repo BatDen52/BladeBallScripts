@@ -1,0 +1,24 @@
+{
+    "name": "AnalyticsMetrika",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a01c234b382e09145a9da6091f8cc5a2",
+        "GUID:49c56ab9fb4f59841b7cc1413acb8ca4",
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:3624a7a3276d12241b27317a0d366975",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:93c5580a62f347443b5037bcade72b92",
+        "GUID:cd31ccbcf13c2fe47aa00d3c8739f571"
+    ],
+    "includePlatforms": [
+        "WebGL"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

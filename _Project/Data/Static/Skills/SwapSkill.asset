@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2d5078c488b374999960427ddcbade, type: 3}
+  m_Name: SwapSkill
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 11
+  <Price>k__BackingField: 2000
+  <Icon>k__BackingField: {fileID: 21300000, guid: 99665fdcc55a16b46bc306d84cac5f02, type: 3}
+  <Title>k__BackingField: Swap
+  <CooldownTime>k__BackingField: 30
+  <ActiveTime>k__BackingField: 0
+  <ActivationsCount>k__BackingField: 1
+  <Name>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+    m_TableEntryReference:
+      m_KeyId: 28316084305125376
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <Description>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+    m_TableEntryReference:
+      m_KeyId: 28318344418418688
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <IsPassive>k__BackingField: 0
+  ActivateSound:
+    AudioClips:
+    - {fileID: 8300000, guid: df25263013ac4514fb051a0a7741e4d0, type: 3}
+    MinPitch: 1
+    MaxPitch: 1
+  DeactivateSound:
+    AudioClips: []
+    MinPitch: 1
+    MaxPitch: 1
+  <DelayBeforeTelepor>k__BackingField: 0.5
+  <TeleportFromEffect>k__BackingField: {fileID: 4744367516841075316, guid: 82301e73ddd15314b81054ba456a15c3, type: 3}
+  <TeleportToEffect>k__BackingField: {fileID: 1814315751473787963, guid: e6572cc83180e754eb49d9ec7ed73413, type: 3}
+  <TeleportFromEffectOther>k__BackingField: {fileID: 4685290749308025161, guid: 18267e5b72624274ea9fe641eddf30ea, type: 3}
+  <TeleportToEffectOther>k__BackingField: {fileID: 5127031180925820529, guid: befb461605a83e54da7ce731dac1a1e2, type: 3}
+  references:
+    version: 2
+    RefIds: []

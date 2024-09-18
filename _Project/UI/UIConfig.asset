@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5615ecc9fb844f438cc8f4d4dec637a1, type: 3}
+  m_Name: UIConfig
+  m_EditorClassIdentifier: 
+  UIRoot: {fileID: -3239022231812030911, guid: 2dea7f0237cf3c045891d1a2b7fa622d, type: 3}
+  LoadingScreen: {fileID: 2526854846634469029, guid: 2ff806a1a5a8a3f4f957e800851087c0, type: 3}
+  HUD: {fileID: 1226617952992309385, guid: 30f5d82c83c7d3142bd864bc484217bd, type: 3}
+  RewardedRoundFinished: {fileID: 6762429418116938913, guid: 228e43b761576ad4391f5c49f41d6c91, type: 3}
+  WindowConfigs:
+  - WindowId: 1
+    Prefab: {fileID: -5696177882759861551, guid: a0647c103cf9020478cc5b2e4521aa8b, type: 3}
+  - WindowId: 2
+    Prefab: {fileID: -6805925838373663015, guid: b57ac965bca02b045bf7fad2a58a526e, type: 3}
+  - WindowId: 3
+    Prefab: {fileID: 8622489545959469658, guid: 969a6cb052ae0c446aa4c5d0db4e7163, type: 3}
+  - WindowId: 4
+    Prefab: {fileID: 655962794107983511, guid: 336d69d940ef0a0428e9db5bbf9df97d, type: 3}
+  - WindowId: 5
+    Prefab: {fileID: 2909568413493075408, guid: 08d025c2a25c546408e661b6f8a18964, type: 3}
+  - WindowId: 6
+    Prefab: {fileID: 8668862477004755025, guid: e009405426c714841a67bfb4f2165d09, type: 3}
+  - WindowId: 7
+    Prefab: {fileID: 7718637280170366752, guid: 734c718528ab98941a06562c024a965e, type: 3}
+  - WindowId: 8
+    Prefab: {fileID: 7977309123935531296, guid: 50c3248a99b52934abef6c84ca84f2d4, type: 3}
+  - WindowId: 9
+    Prefab: {fileID: 3939383112908802836, guid: 133c285d2634352488eb499c13ed0a48, type: 3}
+  MobileCameraControl: {fileID: 1472932684150972904, guid: e4f15602935c89f4a84a3f86b3e717e4, type: 3}
+  MobileStick: {fileID: 3881241127968039032, guid: a2254cc54e13850479b3dede41723df0, type: 3}
+  DesktopClickFullscreen: {fileID: 1472932684150972904, guid: abe260bfd48ff04419f896c620a0e4ea, type: 3}
+  ButtonBackToGame: {fileID: 0}

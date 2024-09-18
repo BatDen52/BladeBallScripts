@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d557ffafe9ee5245aed1dbc41c6bd8d, type: 3}
+  m_Name: SkillInvisibility
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 2
+  <Price>k__BackingField: 800
+  <Icon>k__BackingField: {fileID: 21300000, guid: 48b53609257ba664692fa01291fd1806, type: 3}
+  <Title>k__BackingField: Invisibility
+  <CooldownTime>k__BackingField: 25
+  <ActiveTime>k__BackingField: 10
+  <Name>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+    m_TableEntryReference:
+      m_KeyId: 12721511577096192
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <Description>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:154ba0a05767c8e42be16e428b0a4ae6
+    m_TableEntryReference:
+      m_KeyId: 12721603516239872
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <IsPassive>k__BackingField: 0
+  ActivateSound:
+    AudioClips:
+    - {fileID: 8300000, guid: 0c337b9422a60be48b60f72aa2664061, type: 3}
+    MinPitch: 1
+    MaxPitch: 1
+  DeactivateSound:
+    AudioClips:
+    - {fileID: 8300000, guid: 0c337b9422a60be48b60f72aa2664061, type: 3}
+    MinPitch: 1
+    MaxPitch: 1
+  <DisappearEffect>k__BackingField: {fileID: 100000, guid: facb66361b0c6c448a1d4059043df722, type: 3}
+  references:
+    version: 2
+    RefIds: []

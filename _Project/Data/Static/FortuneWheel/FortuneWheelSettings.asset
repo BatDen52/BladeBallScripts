@@ -1,0 +1,367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d1d06062a9c5340888410156cf9d33, type: 3}
+  m_Name: FortuneWheelSettings
+  m_EditorClassIdentifier: 
+  Window: 5
+  NeedPressTime: 0
+  TurnCost: 10
+  FullTurnovers: 5
+  RotationTime: 5
+  Sectors:
+  - RewardType: 0
+    RewardValue: 15
+    RewardIds: 
+    RewardText:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 275045748736
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Probability: 100
+    FillColor: {r: 0, g: 0.5529412, b: 0.93725497, a: 1}
+    Icon: {fileID: 21300000, guid: a669a2cea506d40d98f0f242296cd723, type: 3}
+    ShowLabelInWheel: 0
+    Label:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 275045748736
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    LabelColor: {r: 0, g: 0, b: 0, a: 1}
+    FontSize: 5
+  - RewardType: 1
+    RewardValue: 0
+    RewardIds: 08000000090000000a000000
+    RewardText:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 462338199552
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Probability: 100
+    FillColor: {r: 0.77647066, g: 0.10196079, b: 0.10196079, a: 1}
+    Icon: {fileID: 21300000, guid: 455d317bd36c5444483f77940660f34b, type: 3}
+    ShowLabelInWheel: 0
+    Label:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 462338199552
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    LabelColor: {r: 0, g: 0, b: 0, a: 1}
+    FontSize: 5
+  - RewardType: 2
+    RewardValue: 5
+    RewardIds: 
+    RewardText:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 525865127936
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Probability: 100
+    FillColor: {r: 0, g: 0.5529412, b: 0.9372549, a: 1}
+    Icon: {fileID: 21300000, guid: 8f9c5aecfebbd41eea10f82fb2fbb11d, type: 3}
+    ShowLabelInWheel: 0
+    Label:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 525865127936
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    LabelColor: {r: 0, g: 0, b: 0, a: 1}
+    FontSize: 5
+  - RewardType: 3
+    RewardValue: 500
+    RewardIds: 
+    RewardText:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 578226819072
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Probability: 100
+    FillColor: {r: 0, g: 0.3529412, b: 0.9372549, a: 1}
+    Icon: {fileID: 21300000, guid: cd9d2a266a4664cd692ce7c032361041, type: 3}
+    ShowLabelInWheel: 0
+    Label:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 578226819072
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    LabelColor: {r: 0, g: 0, b: 0, a: 1}
+    FontSize: 5
+  - RewardType: 4
+    RewardValue: 0
+    RewardIds: 020000000300000004000000
+    RewardText:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 617019936768
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Probability: 100
+    FillColor: {r: 0.86274517, g: 0.454902, b: 0.45098042, a: 1}
+    Icon: {fileID: 21300000, guid: 9f57a8adac99e4526a1986646a3be29a, type: 3}
+    ShowLabelInWheel: 0
+    Label:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 617019936768
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    LabelColor: {r: 0, g: 0, b: 0, a: 1}
+    FontSize: 5
+  - RewardType: 5
+    RewardValue: 30
+    RewardIds: 
+    RewardText:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 699949715456
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Probability: 100
+    FillColor: {r: 0.77647066, g: 0.10196079, b: 0.10196079, a: 1}
+    Icon: {fileID: 21300000, guid: 86f26d1801a474506a9d618fc1d0f246, type: 3}
+    ShowLabelInWheel: 0
+    Label:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 699949715456
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    LabelColor: {r: 0, g: 0, b: 0, a: 1}
+    FontSize: 5
+  AlternativeSectors:
+  - RewardType: 3
+    RewardValue: 500
+    RewardIds: 
+    RewardText:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 578226819072
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Probability: 100
+    FillColor: {r: 0, g: 0.5529412, b: 0.9372549, a: 1}
+    Icon: {fileID: 21300000, guid: cd9d2a266a4664cd692ce7c032361041, type: 3}
+    ShowLabelInWheel: 0
+    Label:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 578226819072
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    LabelColor: {r: 0, g: 0, b: 0, a: 1}
+    FontSize: 5
+  - RewardType: 2
+    RewardValue: 5
+    RewardIds: 
+    RewardText:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 525865127936
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Probability: 100
+    FillColor: {r: 0, g: 0.3529412, b: 0.93725497, a: 1}
+    Icon: {fileID: 21300000, guid: 8f9c5aecfebbd41eea10f82fb2fbb11d, type: 3}
+    ShowLabelInWheel: 0
+    Label:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 525865127936
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    LabelColor: {r: 0, g: 0, b: 0, a: 1}
+    FontSize: 5
+  - RewardType: 2
+    RewardValue: 5
+    RewardIds: 
+    RewardText:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 525865127936
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Probability: 100
+    FillColor: {r: 0, g: 0.5529412, b: 0.9372549, a: 1}
+    Icon: {fileID: 21300000, guid: 8f9c5aecfebbd41eea10f82fb2fbb11d, type: 3}
+    ShowLabelInWheel: 0
+    Label:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 525865127936
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    LabelColor: {r: 0, g: 0, b: 0, a: 1}
+    FontSize: 5
+  - RewardType: 3
+    RewardValue: 500
+    RewardIds: 
+    RewardText:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 578226819072
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Probability: 100
+    FillColor: {r: 0, g: 0.3529412, b: 0.9372549, a: 1}
+    Icon: {fileID: 21300000, guid: cd9d2a266a4664cd692ce7c032361041, type: 3}
+    ShowLabelInWheel: 0
+    Label:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 578226819072
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    LabelColor: {r: 0, g: 0, b: 0, a: 1}
+    FontSize: 5
+  - RewardType: 2
+    RewardValue: 10
+    RewardIds: 
+    RewardText:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 525865127936
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Probability: 100
+    FillColor: {r: 0, g: 0.5529412, b: 0.9372549, a: 1}
+    Icon: {fileID: 21300000, guid: 8f9c5aecfebbd41eea10f82fb2fbb11d, type: 3}
+    ShowLabelInWheel: 0
+    Label:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 525865127936
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    LabelColor: {r: 0, g: 0, b: 0, a: 1}
+    FontSize: 5
+  - RewardType: 3
+    RewardValue: 500
+    RewardIds: 
+    RewardText:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 578226819072
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Probability: 100
+    FillColor: {r: 0, g: 0.3529412, b: 0.9372549, a: 1}
+    Icon: {fileID: 21300000, guid: cd9d2a266a4664cd692ce7c032361041, type: 3}
+    ShowLabelInWheel: 0
+    Label:
+      m_TableReference:
+        m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+      m_TableEntryReference:
+        m_KeyId: 578226819072
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    LabelColor: {r: 0, g: 0, b: 0, a: 1}
+    FontSize: 5
+  TimerMaxHours: 1
+  TimerMaxMinutes: 0
+  TimerMaxSeconds: 0
+  IsFreeTurnEnabled: 1
+  WheelSize: 18
+  LabelRotation: 75
+  IconOffset: 0.71
+  LabelOffset: 0.5
+  Font: {fileID: 11400000, guid: 48c4235dde751734f8d219aabb9e4669, type: 2}
+  CirclePrefab: {fileID: 4633170966006957785, guid: 70cc321064172a248baa2e2fc9af78b4, type: 3}
+  BtnOpenLocale:
+    m_TableReference:
+      m_TableCollectionName: GUID:7b4a9415ed84638408f2c2143da9a825
+    m_TableEntryReference:
+      m_KeyId: 734551022309376
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

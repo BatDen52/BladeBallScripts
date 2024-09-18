@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4467331404627676903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7579173896065561387}
+  - component: {fileID: 5903297167614457107}
+  m_Layer: 0
+  m_Name: ProjectScope
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7579173896065561387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4467331404627676903}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5903297167614457107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4467331404627676903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a647121a4649a69a7b5ed395d8cb25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentReference:
+    TypeName: 
+  autoRun: 1
+  autoInjectGameObjects: []
+  _staticDataDependencies:
+    Settings: {fileID: 11400000, guid: 1dc6746d4622aff41b12bfc88c054731, type: 2}
+    ConsumableItems:
+    - Id: 0
+    - Id: 1
+    - Id: 2
+    - Id: 3
+    - Id: 4
+    - Id: 5
+    - Id: 6
+    - Id: 7
+    - Id: 11
+    - Id: 12
+    - Id: 13
+    - Id: 14
+    - Id: 15
+    NonConsumableItems:
+    - Id: 9
+    - Id: 8
+    - Id: 16
+    SubscriptionItems:
+    - Id: 10
+      DayDuration: 30
+  _audioDependencies:
+    Sounds: {fileID: 11400000, guid: 81738d3157dc0a54981376e0fec93da9, type: 2}
+    MusicAudioSource: {fileID: 1654591363031998513, guid: 931da2c6b492cda4d897b634c68f1145, type: 3}
+    SoundsAudioSource: {fileID: 8289444096289288984, guid: ea168e94bbc2ab54a84a9c400abe9407, type: 3}
+    AudioMixer: {fileID: 24100000, guid: af074547519511941b14d97a49ee4585, type: 2}
+  _uiConfig: {fileID: 11400000, guid: 709783b0b5480ba4bb06bfa17cc84091, type: 2}
+  _gameCamerasPrefab: {fileID: 332214483373049074, guid: 77a0ce12dd9b22147ab1e9473e3ae971, type: 3}
+  _bladeBallPrefab: {fileID: 4654708107284013759, guid: 2d08fdb49b23d0c478afdf925172868b, type: 3}
+  _characterPrefab: {fileID: 5289384318549698497, guid: a8809a1dc7351724da7a66552fc317cf, type: 3}
+  _botPrefab: {fileID: 6126099041614757518, guid: ac429ed75bb116e4c855bc33040d54b8, type: 3}
